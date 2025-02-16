@@ -53,3 +53,10 @@ rsconnect/
 
 # Ignore everything in archive
 archive/*
+
+# Ignore local file/folders
+*.Rproj
+.sh_history
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/

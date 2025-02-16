@@ -1,0 +1,88 @@
+TITLE,CITED BY,YEAR
+High-dimensional phenotyping to define the genetic basis of cellular morphology,4,2024
+"M Tegtmeyer, J Arora, S Asgari, BA Cimini, A Nadig, E Peirent, ...",,
+"Nature Communications 15 (1), 347",,
+Estimating the Genome-Wide Contribution of Rare Coding Variation to Schizophrenia and Bipolar Disorder,,2023
+"A Nadig, D Weiner, B Neale, K Karczewski, E Robinson, L O'Connor",,
+"NEUROPSYCHOPHARMACOLOGY 48, 369-370",,
+"HAPNEST: efficient, large-scale generation and evaluation of synthetic datasets for genotypes and phenotypes",6,2023
+"S Wharrie, Z Yang, V Raj, R Monti, R Gupta, Y Wang, A Martin, ...",,
+"bioinformatics 39 (9), btad535",,
+Extremely sparse models of linkage disequilibrium in ancestrally diverse association studies,12,2023
+"P Salehi Nowbandegani, AW Wohns, JL Ballard, ES Lander, ...",,
+"Nature Genetics 55 (9), 1494-1502",,
+"Polygenic architecture of rare coding variation across 394,783 exomes",54,2023
+"DJ Weiner, A Nadig, KA Jagadeesh, KK Dey, BM Neale, EB Robinson, ...",,
+"Nature 614 (7948), 492-499",,
+Statistical and functional convergence of common and rare genetic influences on autism at chromosome 16p,10,2022
+"DJ Weiner, E Ling, S Erdin, DJC Tai, R Yadav, J Grove, JM Fu, A Nadig, ...",,
+"Nature genetics 54 (11), 1630-1639",,
+HAPNEST: an efficient tool for generating large-scale genetics datasets from limited training data,1,2022
+"S Wharrie, Z Yang, V Raj, R Monti, R Gupta, Y Wang, A Martin, ...",,
+NeurIPS 2022 Workshop on Synthetic Data for Empowering ML Research,,
+"38. COMMON AND RARE GENETIC RISK FACTORS FOR SCHIZOPHRENIA AT CHROMOSOME 22Q INDUCE CONVERGENT, DISPERSED CHANGES IN GENE EXPRESSION",,2022
+"A Nadig, M Tegtmeyer, DJ Weiner, E Ling, A Gordon, LJ O'Connor, ...",,
+"European Neuropsychopharmacology 63, e66",,
+"Polygenic architecture of rare coding variation across 400,000 exomes",2,2022
+"DJ Weiner, A Nadig, KA Jagadeesh, KK Dey, BM Neale, EB Robinson, ...",,
+"medRxiv, 2022.07. 06.22277335",,
+Shared components of heritability across genetically correlated traits,7,2022
+"JL Ballard, LJ O’Connor",,
+"The American Journal of Human Genetics 109 (6), 989-1006",,
+Combining SNP-to-gene linking strategies to identify disease genes and assess disease omnigenicity,71,2022
+"S Gazal, O Weissbrod, F Hormozdiari, KK Dey, J Nasser, KA Jagadeesh, ...",,
+"Nature genetics 54 (6), 827-836",,
+Statistical and functional convergence of common and rare variant risk for autism spectrum disorders at chromosome 16p,2,2022
+"DJ Weiner, E Ling, S Erdin, DJC Tai, R Yadav, J Grove, JM Fu, A Nadig, ...",,
+"medRxiv, 2022.03. 23.22272826",,
+Partitioning gene-mediated disease heritability without eQTLs,11,2022
+"DJ Weiner, S Gazal, EB Robinson, LJ O’Connor",,
+"The American Journal of Human Genetics 109 (3), 405-416",,
+Contemporary clinical isolates of Staphylococcus aureus from pediatric osteomyelitis patients display unique characteristics in a mouse model of hematogenous osteomyelitis,3,2021
+"PM Roper, KR Eichelberger, L Cox, L O’Connor, C Shao, CA Ford, ...",,
+Infection and immunity 89 (10),,
+Combining SNP-to-gene linking strategies to pinpoint disease genes and assess disease omnigenicity,4,2021
+"S Gazal, O Weissbrod, F Hormozdiari, K Dey, J Nasser, K Jagadeesh, ...",,
+"medRxiv, 2021.08. 02.21261488",,
+The distribution of common-variant effect sizes,48,2021
+LJ O’Connor,,
+"Nature genetics 53 (8), 1243-1249",,
+Significance testing for small annotations in stratified LD-Score regression,13,2021
+"KC Tashman, R Cui, LJ O’Connor, BM Neale, HK Finucane",,
+"medRxiv, 2021.03. 13.21249938",,
+Functionally informed fine-mapping and polygenic localization of complex trait heritability,200,2020
+"O Weissbrod, F Hormozdiari, C Benner, R Cui, J Ulirsch, S Gazal, ...",,
+"Nature genetics 52 (12), 1355-1363",,
+Negative short-range genomic autocorrelation of causal effects on human complex traits,4,2020
+"AP Schoech, O Weissbrod, LJ O’Connor, N Patterson, H Shi, Y Reshef, ...",,
+"bioRxiv, 2020.09. 23.310748",,
+Quantifying genetic effects on disease mediated by assayed gene expression levels,214,2020
+"DW Yao, LJ O’connor, AL Price, A Gusev",,
+"Nature genetics 52 (6), 626-633",,
+Maximum likelihood embedding of logistic random dot product graphs,3,2020
+"LJ O'Connor, M Medard, S Feizi",,
+"Proceedings of the AAAI Conference on Artificial Intelligence 34 (04), 5289-5297",,
+Shared genetic and experimental links between obesity-related traits and asthma subtypes in UK Biobank,255,2020
+"Z Zhu, Y Guo, H Shi, CL Liu, RA Panganiban, W Chung, LJ O'Connor, ...",,
+"Journal of Allergy and Clinical Immunology 145 (2), 537-549",,
+"Target genes, variants, tissues and transcriptional pathways influencing human serum urate levels",277,2019
+"A Tin, J Marten, VL Halperin Kuhns, Y Li, M Wuttke, H Kirsten, KB Sieber, ...",,
+"Nature genetics 51 (10), 1459-1474",,
+Functional disease architectures reveal unique biological role of transposable elements,14,2019
+"F Hormozdiari, B van de Geijn, J Nasser, O Weissbrod, S Gazal, CJT Ju, ...",,
+"Nature communications 10 (1), 4054",,
+Extreme polygenicity of complex traits is explained by negative selection,198,2019
+"LJ O'Connor, AP Schoech, F Hormozdiari, S Gazal, N Patterson, AL Price",,
+"The American Journal of Human Genetics 105 (3), 456-476",,
+Genes with high network connectivity are enriched for disease heritability,53,2019
+"SS Kim, C Dai, F Hormozdiari, B van de Geijn, S Gazal, Y Park, ...",,
+"The American Journal of Human Genetics 104 (5), 896-913",,
+Quantification of frequency-dependent genetic architectures in 25 UK Biobank traits reveals action of negative selection,104,2019
+"AP Schoech, DM Jordan, PR Loh, S Gazal, LJ O’Connor, DJ Balick, ...",,
+"Nature communications 10 (1), 790",,
+"German Chronic Kidney Disease Study; Lifelines Cohort Study; VA Million Veteran Program. Target genes, variants, tissues and transcriptional pathways influencing human serum …",19,2019
+"A Tin, J Marten, VL Halperin Kuhns, Y Li, M Wuttke, H Kirsten, KB Sieber, ...",,
+"Nat Genet 51 (1459-1474), 31578528",,
+Genetic Architecture of Common Diseases and Complex Traits,1,2019
+LJ O'Connor,,
+Harvard University,,

@@ -1,0 +1,31 @@
+no,title,cited_by,year,aligned
+30,"Computational Algorithm Predicts cIMPACT-NOW Glioma Diagnoses and Molecular Classifications from Frozen Section. ML Nasrallah, J Zhao, C Tsai, D Meredith, J Golden, KH Yu. JOURNAL OF NEUROPATHOLOGY AND EXPERIMENTAL NEUROLOGY 80 (6), 563-563",,2021,0
+20,"259 Tissue-specific homing in cutaneous immune-related adverse events. B Leung, S Zhang, N Nguyen, G Wan, R Jairath, N Alexander, J Phillipps, .... Journal of Investigative Dermatology 142 (8), S44",1,2022,0
+17,"Prediction of early-stage melanoma recurrence using clinical and histopathologic features. G Wan, N Nguyen, F Liu, MS DeSimone, BW Leung, A Rajeh, MR Collier, .... NPJ precision oncology 6 (1), 79",17,2022,1
+21,"649 CNN-based histopathology image analysis for early-stage melanoma recurrence. G Wan, M DeSimone, F Liu, N Nguyen, B Leung, MS Choi, A Bruce, .... Journal of Investigative Dermatology 142 (8), S112",2,2022,0
+31,"Development of a histopathology informatics pipeline for classification and prediction of clinical outcomes in subtypes of renal cell carcinoma. E Marostica, R Barber, T Denize, IS Kohane, S Signoretti, JA Golden, .... Clinical Cancer Research 27 (10), 2868-2878",36,2021,1
+15,"Construction of extra-large scale screening tools for risks of severe mental illnesses using real world healthcare data. D Liu, KW Choi, P Lizano, W Yuan, KH Yu, JW Smoller, I Kohane. arXiv preprint arXiv:2212.10320",,2022,1
+36,"Deep decision support for lymph node metastatic risk evaluation. E Marostica, KH Yu. EBioMedicine 62",,2020,1
+50,"Association of Mass Gatherings and COVID-19 Hospitalization (preprint). O Miron, KH Yu, R Wilf-Miron, N Davidovitch",,2020,1
+29,"COVID-19 infections following physical school reopening. O Miron, KH Yu, R Wilf-Miron, I Kohane, N Davidovitch. Archives of disease in childhood 106 (8), e34-e34",10,2021,1
+23,"Outdoor mass gathering events and SARS-CoV-2 infection in Catalonia (north-east Spain). O Miron, KH Yu. The Lancet Regional Health–Europe 15",2,2022,1
+48,"COVID-19 infections following outdoor mass gatherings in low incidence areas: retrospective cohort study (preprint). O Miron, KH Yu, R Wilf-Miron, N Davidovich",,2020,1
+43,"Classifying non-small cell lung cancer types and transcriptomic subtypes using convolutional neural networks. KH Yu, F Wang, GJ Berry, C Re, RB Altman, M Snyder, IS Kohane. Journal of the American Medical Informatics Association 27 (5), 757-769",93,2020,0
+37,"Deciphering serous ovarian carcinoma histopathology and platinum response by convolutional neural networks. KH Yu, V Hu, F Wang, UA Matulonis, GL Mutter, JA Golden, IS Kohane. BMC medicine 18, 1-14",45,2020,1
+51,"COVID-19 Infections Following Physical School Reopening (preprint). O Miron, KH Yu, R Wilf-Miron, I Kohane, N Davidovitch",,2020,1
+54,"Proceedings of the fourth international molecular pathological epidemiology (MPE) meeting. PT Campbell, CB Ambrosone, R Nishihara, HJWL Aerts, M Bondy, .... Cancer Causes & Control 30, 799-811",7,2019,0
+47,"Autoimmune effects of lung cancer immunotherapy revealed by data?driven analysis on a nationwide cohort. S Yang, KH Yu, N Palmer, K Fox, SC Kou, IS Kohane. Clinical Pharmacology & Therapeutics 107 (2), 388-396",18,2020,0
+1,"Cancer Type and Histology Influence Cutaneous Immunotherapy Toxicities: A Multi-Institutional Cohort Study. G Wan, S Khattab, BW Leung, S Zhang, N Nguyen, M Tran, C Lin, .... British Journal of Dermatology, ljae053",1,2024,0
+57,"Framing the challenges of artificial intelligence in medicine. KH Yu, IS Kohane. BMJ quality & safety 28 (3), 238-241",200,2019,1
+40,"854 Prediction of severe immune-related adverse events in patients on immune checkpoint inhibitors: study of a population level insurance claims database from the United States. M Kalinich, W Murphy, S Wongvibulsin, V Pahalyants, KH Yu, F Wang, .... Journal for ImmunoTherapy of Cancer 8 (Suppl 3)",1,2020,1
+45,"Examining the use of real?world evidence in the regulatory process. BK Beaulieu?Jones, SG Finlayson, W Yuan, RB Altman, IS Kohane, .... Clinical Pharmacology & Therapeutics 107 (4), 843-852",139,2020,0
+24,"Epidemiology and risk factors for the development of cutaneous toxicities in patients treated with immune-checkpoint inhibitors: A United States population-level analysis. S Wongvibulsin, V Pahalyants, M Kalinich, W Murphy, KH Yu, F Wang, .... Journal of the American Academy of Dermatology 86 (3), 563-572",60,2022,0
+16,"Prognostic role of inflammatory diets in colorectal cancer overall and in strata of tumor?infiltrating lymphocyte levels. T Ugai, L Liu, FK Tabung, T Hamada, BW Langworthy, N Akimoto, .... Clinical and Translational Medicine 12 (11), e1114",5,2022,1
+49,"COVID-19 Mortality Following Mass Gatherings (preprint). O Miron, KH Yu, R Wilf-Miron, N Davidovitch",,2020,1
+41,"COVID-19 infections following outdoor mass gatherings in low incidence areas: retrospective cohort study. O Miron, KH Yu, R Wilf-Miron, N Davidovitch. medRxiv, 2020.10. 22.20184630",6,2020,1
+3,"SpatialCells: Automated Profiling of Tumor Microenvironments with Spatially Resolved Multiplexed Single-Cell Data. G Wan, Z Maliga, B Yan, T Vallius, Y Shi, S Khattab, C Chang, AJ Nirmal, .... bioRxiv",,2023,0
+10,"Influence of melanoma type on incidence and downstream implications of cutaneous immune-related adverse events in the setting of immune checkpoint inhibitor therapy. N Nguyen, G Wan, P Ugwu-Dike, NA Alexander, N Raval, S Zhang, .... Journal of the American Academy of Dermatology 88 (6), 1308-1316",9,2023,0
+56,"Evaluation of Taroni et al.: Understanding Rare Diseases by MultiPLIER. KH Yu. Cell Systems 8 (5), 359-360",1,2019,0
+26,"Integrative multiomics-histopathology analysis for breast cancer classification. Y Ektefaie, W Yuan, DA Dillon, NU Lin, JA Golden, IS Kohane, KH Yu. NPJ Breast Cancer 7 (1), 147",24,2021,0
+58,"Challenging transitions. ND Wasalathanthri, SSA Zaidi, E Mahrt, S Srivastava, KH Yu, .... Science 363 (6422), 24-26",1,2019,0
+22,"Large-scale real-world data analysis identifies comorbidity patterns in schizophrenia. C Lu, D Jin, N Palmer, K Fox, IS Kohane, JW Smoller, KH Yu. Translational Psychiatry 12 (1), 154",10,2022,1

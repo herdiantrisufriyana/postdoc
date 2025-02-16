@@ -1,0 +1,204 @@
+TITLE,CITED BY,YEAR
+RExPRT: a machine learning tool to predict pathogenicity of tandem repeat loci,1,2024
+"S Fazal, MC Danzi, I Xu, SN Kobren, S Sunyaev, C Reuter, S Marwaha, ...",,
+"Genome biology 25 (1), 1-22",,
+Low-frequency inherited complement receptor variants are associated with purpura fulminans,2,2024
+"PK Bendapudi, S Nazeen, J Ryu, O Söylemez, A Robbins, B Rouaisnel, ...",,
+"Blood 143 (11), 1032-1044",,
+Deep sequencing of proteotoxicity modifier genes uncovers a Presenilin-2/beta-amyloid-actin genetic risk module shared among alpha-synucleinopathies,,2024
+"S Nazeen, X Wang, D Zielinski, I Lam, E Hallacli, P Xu, E Ethier, R Strom, ...",,
+"bioRxiv, 2024.03. 03.583145",,
+"Critical assessment of genome interpretation consortium. CAGI, the critical assessment of genome interpretation, establishes progress and pprospects for computational genetic …",,2024
+"S Jain, C Bakolitsa, EB Steven, P Radivojac, J Moult, S Repo, AH Roger, ...",,
+"GENOME BIOLOGY 22 (22; 25 (1): 53.), 1-46",,
+"CAGI, the Critical Assessment of Genome Interpretation, establishes progress and prospects for computational genetic variant interpretation methods",1,2024
+"N Null, S Jain, C Bakolitsa, SE Brenner, P Radivojac, J Moult, S Repo, ...",,
+"Genome Biology 25 (1), 1-46",,
+"Joint, multifaceted genomic analysis enables diagnosis of diverse, ultra-rare monogenic presentations",,2024
+"SN Kobren, MA Moldovan, R Reimers, D Traviglia, X Li, D Barnum, A Veit, ...",,
+"bioRxiv, 2024.02. 13.580158",,
+Pervasive correlations between causal disease effects of proximal SNPs vary with functional annotations and implicate stabilizing selection,,2023
+"MJ Zhang, A Durvasula, C Chiang, EM Koch, BJ Strober, H Shi, ...",,
+medRxiv,,
+A biology-aware mutation rate model for human germline,,2023
+"EM Koch, V Seplyarskiy, SR Sunyaev",,
+"NATURE GENETICS 55 (12), 2033-2034",,
+A mutation rate model at the basepair resolution identifies the mutagenic effect of Polymerase III transcription,8,2023
+"V Seplyarskiy, EM Koch, DJ Lee, JS Lichtman, HH Luan, SR Sunyaev",,
+"Nature Genetics 55 (12), 2235-2242",,
+Recurrent mutation in the ancestry of a rare variant,5,2023
+"J Wakeley, WT Fan, E Koch, S Sunyaev",,
+"Genetics 224 (3), iyad049",,
+The landscape of tolerated genetic variation in humans and primates,42,2023
+"H Gao, T Hamp, J Ede, JG Schraiber, J McRae, M Singer-Berk, Y Yang, ...",,
+"Science 380 (6648), eabn8153",,
+"Assessment of mitochondrial genome constraint across> 50,000 individuals in gnomAD to facilitate variant interpretation",,2023
+"NJ Lake, W Liu, KM Laricchia, G Tiao, H Zhao, SE Calvo, SR Sunyaev, ...",,
+"EUROPEAN JOURNAL OF HUMAN GENETICS 31, 21-21",,
+Revisiting mutagenesis at non-B DNA motifs in the human genome,6,2023
+"RJ McGinty, SR Sunyaev",,
+"Nature structural & molecular biology 30 (4), 417-424",,
+FAVOR: functional annotation of variants online resource and annotator for variation across the human genome,40,2023
+"H Zhou, T Arapoglou, X Li, Z Li, X Zheng, J Moore, A Asok, S Kumar, ...",,
+"Nucleic acids research 51 (D1), D1300-D1311",,
+Leveraging pleiotropy to discover and interpret GWAS results for sleep-associated traits,7,2022
+"S Chun, S Akle, A Teodosiadis, BE Cade, H Wang, T Sofer, DS Evans, ...",,
+"PLoS genetics 18 (12), e1010557",,
+Quantifying constraint in the human mitochondrial genome,,2022
+"NJ Lake, W Liu, SL Battle, KM Laricchia, G Tiao, D Puiu, AG Compton, ...",,
+"bioRxiv, 2022.12. 16.520778",,
+The missing link between genetic association and regulatory function,56,2022
+"NJ Connally, S Nazeen, D Lee, H Shi, J Stamatoyannopoulos, S Chun, ...",,
+"Elife 11, e74970",,
+AnFiSA: An open-source computational platform for the analysis of sequencing data for rare genetic disease,1,2022
+"MA Bouzinier, D Etin, SI Trifonov, VN Evdokimova, V Ulitin, J Shen, ...",,
+"Journal of Biomedical Informatics 133, 104174",,
+Demographic and Viral-Genetic Analyses of COVID-19 Severity in Bahrain Identify Local Risk Factors and a Protective Effect of Polymerase Mutations,1,2022
+"EM Koch, J Du, M Dressner, HE Alwasti, Z Al Taif, F Shehab, ...",,
+medRxiv,,
+A cross-disorder dosage sensitivity map of the human genome,145,2022
+"RL Collins, JT Glessner, E Porcu, M Lepamets, R Brandon, C Lauricella, ...",,
+"Cell 185 (16), 3041-3055. e25",,
+Automated analysis of significant noncoding mutations in somatic whole cancer genomes,,2022
+"F Dietlein, AB Wang, C Fagre, A Tang, N Besselink, E Cuppen, C Li, ...",,
+"Cancer Research 82 (12_Supplement), 2170-2170",,
+The Parkinson’s disease protein alpha-synuclein is a modulator of processing bodies and mRNA stability,67,2022
+"E Hallacli, C Kayatekin, S Nazeen, XH Wang, Z Sheinkopf, ...",,
+"Cell 185 (12), 2035-2056. e33",,
+Genome-wide analysis of somatic noncoding mutation patterns in cancer,43,2022
+"F Dietlein, AB Wang, C Fagre, A Tang, NJM Besselink, E Cuppen, C Li, ...",,
+"Science 376 (6589), eabg5601",,
+Pathway-based rare variant burden analysis identifies a role for the complement system in an extreme phenotype of sepsis with coagulopathy,1,2022
+"PK Bendapudi, S Nazeen, J Ryu, O Söylemez, B Rouaisnel, M Colling, ...",,
+"Medrxiv, 2022.02. 24.22271459",,
+Enrichment of somatic mutations in schizophrenia brain targets prenatally active transcription factor bindings sites,4,2022
+"EA Maury, A Jones, V Seplyarskiy, C Rosenbluh, T Bae, Y Wang, ...",,
+"bioRxiv, 2022.02. 23.481681",,
+Mutagenesis at non-B DNA motifs in the human genome: a course correction,,2022
+"RJ McGinty, SR Sunyaev",,
+"bioRxiv, 2022.02. 08.479604",,
+StrVCTVRE: A supervised learning method to predict the pathogenicity of human genome structural variants,33,2022
+"AG Sharo, Z Hu, SR Sunyaev, SE Brenner",,
+"The American Journal of Human Genetics 109 (2), 195-209",,
+Overcoming constraints on the detection of recessive selection in human genes from population frequency data,9,2022
+"DJ Balick, DM Jordan, S Sunyaev, R Do",,
+"The American Journal of Human Genetics 109 (1), 33-49",,
+Maintenance of complex trait variation: classic theory and modern data,13,2021
+"EM Koch, SR Sunyaev",,
+"Frontiers in genetics 12, 763363",,
+The origin of human mutation in light of genomic data,31,2021
+"VB Seplyarskiy, S Sunyaev",,
+"Nature Reviews Genetics 22 (10), 672-686",,
+Population sequencing data reveal a compendium of mutational processes in the human germ line,52,2021
+"VB Seplyarskiy, RA Soldatov, E Koch, RJ McGinty, JM Goldmann, ...",,
+"Science 373 (6558), 1030-1035",,
+Replicate sequencing libraries are important for quantification of allelic imbalance,12,2021
+"A Mendelevich, S Vinogradova, S Gupta, AA Mironov, SR Sunyaev, ...",,
+"Nature communications 12 (1), 3370",,
+Commonalities across computational workflows for uncovering explanatory variants in undiagnosed cases,16,2021
+"SN Kobren, D Baldridge, M Velinder, JB Krier, K LeBlanc, C Esteves, ...",,
+"Genetics in Medicine 23 (6), 1075-1085",,
+Purifying selection on noncoding deletions of human regulatory loci detected using their cellular pleiotropy,3,2021
+"DW Radke, JH Sul, DJ Balick, S Akle, RC Green, SR Sunyaev, ...",,
+"Genome Research 31 (6), 935-946",,
+Joint analysis reveals shared autoimmune disease associations and identifies common mechanisms,9,2021
+"MR Lincoln, N Connally, PP Axisa, C Gasperi, M Mitrovic, D Heel, ...",,
+"medRxiv, 2021.05. 13.21257044",,
+Maintenance of adaptive dynamics and no detectable load in a range-edge outcrossing plant population,19,2021
+"M Takou, T Hämälä, EM Koch, KA Steige, H Dittberner, L Yant, M Genete, ...",,
+"Molecular Biology and Evolution 38 (5), 1820-1836",,
+SEQuencing a baby for an optimal outcome: a genomic future for newborn screening,,2021
+"A Giersch, J Shen, K Booth, Y Chekaluk, M Cohen, K Gregory, ...",,
+"Molecular Genetics and Metabolism 132, S138",,
+Shared associations identify causal relationships between gene expression and immune cell phenotypes,2,2021
+"C Gasperi, S Chun, SR Sunyaev, C Cotsapas",,
+"Communications Biology 4 (1), 279",,
+Population-specific causal disease effect sizes in functionally important regions impacted by selection,127,2021
+"H Shi, S Gazal, M Kanai, EM Koch, AP Schoech, KM Siewert, SS Kim, ...",,
+"Nature communications 12 (1), 1098",,
+Polygenic adaptation of rosette growth in Arabidopsis thaliana,20*,2021
+"B Wieters, KA Steige, F He, EM Koch, SE Ramos-Onsins, H Gu, YL Guo, ...",,
+"Plos Genetics 17 (1), e1008748",,
+Maintenance of adaptive dynamics in a bottlenecked range-edge population that retained outcrossing,6,2021
+"M Takou, T Hämälä, E Koch, KA Steige, H Dittberner, L Yant, M Genete, ...",,
+"Molecular Biology and Evolution 38, 1820-1836",,
+Evidence for secondary-variant genetic burden and non-random distribution across biological modules in a recessive ciliopathy,33,2020
+"M Kousi, O Söylemez, A Ozanturk, N Mourtzi, S Akle, I Jungreis, J Muller, ...",,
+"Nature genetics 52 (11), 1145-1150",,
+Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale,154,2020
+"X Li, Z Li, H Zhou, SM Gaynor, Y Liu, H Chen, R Sun, R Dey, DK Arnett, ...",,
+"Nature genetics 52 (9), 969-983",,
+A novel hypomorphic CSF1R gene mutation in the biallelic state leading to fatal childhood neurodegeneration,19,2020
+"PM Tamhankar, B Zhu, VP Tamhankar, S Mithbawkar, L Seabra, ...",,
+"Neuropediatrics 51 (04), 302-306",,
+Non-parametric polygenic risk prediction via partitioned GWAS summary statistics,29,2020
+"S Chun, M Imakaev, D Hui, NA Patsopoulos, BM Neale, S Kathiresan, ...",,
+"The American Journal of Human Genetics 107 (1), 46-59",,
+Purifying selection on noncoding deletions of human regulatory elements detected using their cellular pleiotropy,,2020
+"DW Radke, JH Sul, DJ Balick, S Akle, ...",,
+"bioRxiv, 2020.05. 19.105205",,
+Mutations in RABL3 alter KRAS prenylation and are associated with hereditary pancreatic cancer.,,2020
+"S Nissim, I Leshchiner, J Mancias, M Greenblatt, O Maertens, C Cassa, ...",,
+"MOLECULAR CANCER RESEARCH 18 (5), 30-31",,
+Abstract PR02: Mutations in RABL3 alter KRAS prenylation and are associated with hereditary pancreatic cancer,,2020
+"S Nissim, I Leshchiner, J Mancias, M Greenblatt, O Maertens, C Cassa, ...",,
+"Molecular Cancer Research 18 (5_Supplement), PR02-PR02",,
+Unraveling the influence of common von willebrand factor variants on von Willebrand Disease phenotype: an exploratory study on the molecular and clinical profile of von …,3,2020
+"N Borràs, I Garcia-Martínez, J Batlle, A Pérez-Rodríguez, R Parra, ...",,
+"Thrombosis and Haemostasis 120 (03), 437-448",,
+Unexpected variability of allelic imbalance estimates from RNA sequencing,5,2020
+"A Mendelevich, S Vinogradova, S Gupta, AA Mironov, S Sunyaev, ...",,
+"BioRxiv, 2020.02. 18.948323",,
+Identification of cancer driver genes based on nucleotide context,203,2020
+"F Dietlein, D Weghorn, A Taylor-Weiner, A Richters, B Reardon, D Liu, ...",,
+"Nature genetics 52 (2), 208-218",,
+Fine-scale haplotype structure reveals strong signatures of positive selection in a recombining bacterial pathogen,28,2020
+"B Arnold, M Sohail, C Wadsworth, J Corander, WP Hanage, S Sunyaev, ...",,
+"Molecular Biology and Evolution 37 (2), 417-428",,
+Update on molecular testing in von Willebrand disease,16,2019
+"J Batlle, A Pérez-Rodríguez, I Corrales, N Borràs, JC Pinto, ...",,
+"Seminars in Thrombosis and Hemostasis 45 (07), 708-719",,
+Infantile-onset paroxysmal movement disorder and episodic ataxia associated with a TBC1D24 mutation,13,2019
+"V Zimmern, F Riant, E Roze, E Ranza, F Lehmann-Horn, J de Bellescize, ...",,
+"Neuropediatrics 50 (05), 308-312",,
+From Statistical Models to Biological Mechanisms of Human Mutation.,,2019
+"S Sunyaev, V Seplyarskiy, R Soldatov, R McGinty, P Kharchenko",,
+"ENVIRONMENTAL AND MOLECULAR MUTAGENESIS 60, 43-44",,
+Mutations in RABL3 alter KRAS prenylation and are associated with hereditary pancreatic cancer,52,2019
+"S Nissim, I Leshchiner, JD Mancias, MB Greenblatt, O Maertens, ...",,
+"Nature genetics 51 (9), 1308-1314",,
+Applicability of the mutation–selection balance model to population genetics of heterozygous protein-truncating variants in humans,26,2019
+"D Weghorn, DJ Balick, C Cassa, JA Kosmicki, MJ Daly, DR Beier, ...",,
+"Molecular Biology and Evolution 36 (8), 1701-1710",,
+Web-based bioinformatics predictors: Recommendations to assess lysosomal cholesterol trafficking diseases-related genes,1,2019
+"LL de Frutos, JJ Cebolla, P Irún, R Köhler, P Giraldo",,
+"Methods of Information in Medicine 58 (01), 050-059",,
+GWAS for quantitative resistance phenotypes in Mycobacterium tuberculosis reveals resistance genes and regulatory regions,130,2019
+"MR Farhat, L Freschi, R Calderon, T Ioerger, M Snyder, CJ Meehan, ...",,
+"Nature communications 10 (1), 2128",,
+Associations of variants In the hexokinase 1 and interleukin 18 receptor regions with oxyhemoglobin saturation during sleep,32,2019
+"BE Cade, H Chen, AM Stilp, T Louie, S Ancoli-Israel, R Arens, R Barfield, ...",,
+"PLoS genetics 15 (4), e1007739",,
+novoCaller: a Bayesian network approach for de novo variant calling from pedigree and population sequence data,4,2019
+"AK Mohanty, D Vuzman, L Francioli, C Cassa, ...",,
+"Bioinformatics 35 (7), 1174-1180",,
+Polygenic adaptation on height is overestimated due to uncorrected stratification in genome-wide association studies,,2019
+"A Bloemendal, AR Martin, MC Turchin, CWK Chiang10, J Hirschhorn, ...",,
+Polygenic adaptation on height is overestimated due to uncorrected stratification in genome-wide association studies,342,2019
+"M Sohail, RM Maier, A Ganna, A Bloemendal, AR Martin, MC Turchin, ...",,
+"Elife 8, e39702",,
+A whole genome approach for discovering the genetic basis of blood group antigens: independent confirmation for P1 and Xga,19,2019
+"WJ Lane, M Aguad, R Smeland?Wagman, S Vege, HH Mah, A Joseph, ...",,
+"Transfusion 59 (3), 908-915",,
+Quantification of frequency-dependent genetic architectures in 25 UK Biobank traits reveals action of negative selection,104,2019
+"AP Schoech, DM Jordan, PR Loh, S Gazal, LJ O’Connor, DJ Balick, ...",,
+"Nature communications 10 (1), 790",,
+Admixture mapping identifies novel loci for obstructive sleep apnea in Hispanic/Latino Americans,43,2019
+"H Wang, BE Cade, T Sofer, SA Sands, H Chen, SR Browning, AM Stilp, ...",,
+"Human molecular genetics 28 (4), 675-687",,
+Reply to ‘Selective effects of heterozygous protein-truncating variants’,3,2019
+"CA Cassa, D Weghorn, DJ Balick, DM Jordan, D Nusinow, KE Samocha, ...",,
+"Nature genetics 51 (1), 3-4",,
+Error-prone bypass of DNA lesions during lagging-strand replication is a common source of germline and cancer mutations,36,2019
+"VB Seplyarskiy, EE Akkuratov, N Akkuratova, MA Andrianova, SI Nikolaev, ...",,
+"Nature genetics 51 (1), 36-41",,

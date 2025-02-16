@@ -1,0 +1,31 @@
+no,title,cited_by,year,aligned
+30,"Chromosome-scale, haplotype-resolved assembly of human genomes. S Garg, A Fungtammasan, A Carroll, M Chou, A Schmitt, X Zhou, S Mac, .... Nature Biotechnology 39 (3), 309-312",149*,2021,0
+20,"The Human Pangenome Project: a global resource to map genomic diversity. T Wang, L Antonacci-Fulton, K Howe, HA Lawson, JK Lucas, AM Phillippy, .... Nature 604 (7906), 437-446",226,2022,0
+17,"Identifying and correcting repeat-calling errors in nanopore sequencing of telomeres. KT Tan, MK Slevin, M Meyerson, H Li. Genome Biology 23 (1), 180",26,2022,0
+21,"The complete sequence of a human genome. S Nurk, S Koren, A Rhie, M Rautiainen, AV Bzikadze, A Mikheenko, .... Science 376 (6588), 44-53",1648,2022,0
+31,"Accurate SNV detection in single cells by transposon-based whole-genome amplification of complementary strands. D Xing, L Tan, CH Chang, H Li, XS Xie. Proceedings of the National Academy of Sciences 118 (8), e2013106118",52,2021,0
+15,"Protein-to-genome alignment with miniprot. H Li. Bioinformatics 39 (1), btad014",51,2023,0
+36,"Lisa: learned indexes for sequence analysis. D Ho, S Kalikar, S Misra, J Ding, V Md, N Tatbul, H Li, T Kraska. bioRxiv, 2020-2012",6*,2021,0
+29,"Bedtk: Finding Interval Overlap with Implicit Interval Tree. H Li, J Rong. Bioinformatics 37 (9), 1315–1316",5,2021,0
+23,"Haplotype-resolved assembly of diploid genomes without parental data. H Cheng, ED Jarvis, O Fedrigo, KP Koepfli, L Urban, NJ Gemmell, H Li. Nature Biotechnology 40 (9), 1332-1335",159,2022,0
+38,"A haplotype-aware de novo assembly of related individuals using pedigree sequence graph. S Garg, J Aach, H Li, I Sebenius, R Durbin, G Church. Bioinformatics 36 (8), 2385-2392",26,2020,0
+41,"Fast and accurate long-read assembly with wtdbg2. J Ruan, H Li. Nature methods 17 (2), 155-158",1007,2020,0
+1,"Exploring gene content with pangenome gene graphs. H Li, M Marin, MR Farhat. arXiv preprint arXiv:2402.16185",,2024,0
+44,"Efficient architecture-aware acceleration of BWA-MEM for multicore systems. M Vasimuddin, S Misra, H Li, S Aluru. 2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS …",874,2019,0
+8,"Galba: genome annotation with miniprot and AUGUSTUS. T Br?na, H Li, J Guhlin, D Honsel, S Herbold, M Stanke, N Nenasheva, .... BMC bioinformatics 24 (1), 327",5,2023,0
+39,"Differential DNA methylation of vocal and facial anatomy genes in modern humans. D Gokhman, M Nissim-Rafinia, L Agranat-Tamir, G Housman, .... Nature communications 11 (1), 1189",73,2020,1
+35,"Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm. H Cheng, GT Concepcion, X Feng, H Zhang, H Li. Nature methods 18 (2), 170-175",1852,2021,0
+18,"Metagenome assembly of high-fidelity long reads with hifiasm-meta. X Feng, H Cheng, D Portik, H Li. Nature Methods 19 (6), 671-674",63,2022,0
+22,"CoLoRd: Compressing long reads. M Kokot, A Gudys, H Li, S Deorowicz. Nature Methods 19 (4), 441-444",9,2022,0
+24,"New strategies to improve minimap2 alignment accuracy. H Li. Bioinformatics 37 (23), 4572-4574",292,2021,0
+16,"Semi-automated assembly of high-quality diploid human reference genomes. ED Jarvis, G Formenti, A Rhie, A Guarracino, C Yang, J Wood, A Tracey, .... Nature 611 (7936), 519-531",92,2022,0
+37,"The design and construction of reference pangenome graphs with minigraph. H Li, X Feng, C Chu. Genome Biology 21 (1), 265",246,2020,0
+32,"HTSlib: C library for reading/writing high-throughput sequencing data. JK Bonfield, J Marshall, P Danecek, H Li, V Ohan, A Whitwham, T Keane, .... GigaScience 10 (2), giab007",184,2021,0
+33,"Twelve years of SAMtools and BCFtools. P Danecek, JK Bonfield, J Liddle, J Marshall, V Ohan, MO Pollard, .... GigaScience 10 (2), giab008",4684*,2021,0
+3,"Neotelomeres and Telomere-Spanning Chromosomal Arm Fusions in Cancer Genomes Revealed by Long-Read Sequencing. KT Tan, MK Slevin, ML Leibowitz, M Garrity-Janger, H Li, M Meyerson. bioRxiv, 2023.11. 30.569101",1,2023,0
+10,"Scalable telomere-to-telomere assembly for diploid and polyploid genomes with double graph. H Cheng, M Asri, J Lucas, S Koren, H Li. ArXiv",5,2023,0
+43,"Accurate circular consensus long-read sequencing improves variant detection and assembly of a human genome. AM Wenger, P Peluso, WJ Rowell, PC Chang, RJ Hall, GT Concepcion, .... Nature biotechnology 37 (10), 1155-1162",1231,2019,0
+34,"Targeting a cytokine checkpoint enhances the fitness of armored cord blood CAR-NK cells. M Daher, R Basar, E Gokdemir, N Baran, N Uprety, AK Nunez Cortes, .... Blood, The Journal of the American Society of Hematology 137 (5), 624-636",174,2021,0
+19,"Curated variation benchmarks for challenging medically relevant autosomal genes. J Wagner, ND Olson, L Harris, J McDaniel, H Cheng, A Fungtammasan, .... Nature Biotechnology 40 (5), 672-680",110,2022,0
+7,"The complete sequence of a human Y chromosome. A Rhie, S Nurk, M Cechova, SJ Hoyt, DJ Taylor, N Altemose, PW Hook, .... Nature 621 (7978), 344-354",82,2023,0
+5,"Evaluation of haplotype-aware long-read error correction with hifieval. Y Guo, X Feng, H Li. Bioinformatics 39 (10), btad631",1,2023,0

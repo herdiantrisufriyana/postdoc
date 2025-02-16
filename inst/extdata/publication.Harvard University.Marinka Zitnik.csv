@@ -1,0 +1,344 @@
+TITLE,CITED BY,YEAR
+Actionable predictions of human pharmacokinetics at the drug design stage,,2024
+"L Komissarov, N Manevski, KG Zbinden, T Schindler, M Zitnik, ...",,
+"Recent Advances, Applications, and Open Challenges in Machine Learning for Health: Reflections from Research Roundtables at ML4H 2023 Symposium",,2024
+"H Jeong, S Jabbour, Y Yang, R Thapta, H Mozannar, WJ Han, ...",,
+arXiv preprint arXiv:2403.01628,,
+UniTS: Building a Unified Time Series Model,2,2024
+"S Gao, T Koker, O Queen, T Hartvigsen, T Tsiligkaridis, M Zitnik",,
+arXiv preprint arXiv:2403.00131,,
+PocketGen: Generating Full-Atom Ligand-Binding Protein Pockets,,2024
+"Z Zhang, W Shen, Q Liu, M Zitnik",,
+bioRxiv,,
+Full-atom protein pocket design via iterative refinement,6,2024
+"Z Zhang, Z Lu, H Zhongkai, M Zitnik, Q Liu",,
+Advances in Neural Information Processing Systems 36,,
+Encoding time-series explanations through self-supervised model behavior consistency,3,2024
+"O Queen, T Hartvigsen, T Koker, H He, T Tsiligkaridis, M Zitnik",,
+Advances in Neural Information Processing Systems 36,,
+Trustllm: Trustworthiness in large language models,35,2024
+"L Sun, Y Huang, H Wang, S Wu, Q Zhang, C Gao, Y Huang, W Lyu, ...",,
+arXiv preprint arXiv:2401.05561,,
+Combinatorial prediction of therapeutic perturbations using causally-inspired neural networks,1,2024
+"G Gonzalez, I Herath, K Veselkov, M Bronstein, M Zitnik",,
+"bioRxiv, 2024.01. 03.573985",,
+PocketGen: Generating Full-Atom Ligand-Binding Protein Pockets,,2024
+"Z Zaixi, W Shen, Q Liu, M Zitnik",,
+"bioRxiv, 2024.02. 25.581968",,
+Evaluating generalizability of artificial intelligence models for molecular datasets,,2024
+"Y Ektefaie, A Shen, D Bykova, M Marin, M Zitnik, MR Farhat",,
+"bioRxiv, 2024.02. 25.581982",,
+Anniversary AI reflections,1,2024
+"N Ferruz, M Zitnik, PY Oudeyer, E Hine, N Sengupta, Y Shi, D Mincu, ...",,
+"Nature Machine Intelligence 6 (1), 6-12",,
+Is Ignorance Bliss? The Role of Post Hoc Explanation Faithfulness and Alignment in Model Trust,,2023
+"T Han, Y Ektefaie, M Farhat, M Zitnik, H Lakkaraju",,
+arXiv preprint arXiv:2312.05690,,
+Let's Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation,1,2023
+"S Zhong, Z Huang, S Gao, W Wen, L Lin, M Zitnik, P Zhou",,
+arXiv preprint arXiv:2312.02439,,
+Learning Generalized Medical Image Representations Through Image-Graph Contrastive Pretraining,,2023
+"S Khanna, D Michael, M Zitnik, P Rajpurkar",,
+"Machine Learning for Health (ML4H), 232-243",,
+OpenXAI: Towards a Transparent Evaluation of Model Explanations,1,2023
+"C Agarwal, S Krishna, E Saxena, M Pawelczyk, N Johnson, I Puri, M Zitnik, ...",,
+Advances in neural information processing systems,,
+Mapping the intermolecular interaction universe through self-supervised learning on molecular crystals,,2023
+"A Fang, Z ZHANG, M Zitnik",,
+NeurIPS 2023 AI for Science Workshop,,
+Graph ai in medicine,3,2023
+"R Johnson, MM Li, A Noori, O Queen, M Zitnik",,
+arXiv preprint arXiv:2310.13767,,
+Regularized Optimal Transport for Temporal Trajectory Analysis in Single-Cell Data,,2023
+"J Peng, X Song, Y Zhang, Z He, M Zitnik, M Kellis, T Chen",,
+Current and future directions in network biology,5,2023
+"M Zitnik, MM Li, A Wells, K Glass, DM Gysi, A Krishnan, TM Murali, ...",,
+arXiv preprint arXiv:2309.08478,,
+Publisher Correction: Scientific discovery in the age of artificial intelligence,,2023
+"H Wang, T Fu, Y Du, W Gao, K Huang, Z Liu, P Chandak, S Liu, ...",,
+"Nature 621 (7978), E33",,
+The 3rd Workshop on Graph Learning Benchmarks (GLB 2023),,2023
+"J Ma, J Zhu, Y Dong, D Koutra, J He, Q Mei, A Tsitsulin, X Zhang, M Zitnik",,
+Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and …,,
+Scientific discovery in the age of artificial intelligence,285*,2023
+"H Wang, T Fu, Y Du, W Gao, K Huang, Z Liu, P Chandak, S Liu, ...",,
+"Nature 620 (7972), 47-60",,
+Contextualizing protein representations using deep learning on protein networks and single-cell data,3,2023
+"MM Li, Y Huang, M Sumathipala, MQ Liang, A Valdeolivas, ...",,
+"bioRxiv, 2023.07. 18.549602",,
+"Artificial intelligence for science in quantum, atomistic, and continuum systems",42,2023
+"X Zhang, L Wang, J Helwig, Y Luo, C Fu, Y Xie, M Liu, Y Lin, Z Xu, K Yan, ...",,
+arXiv preprint arXiv:2307.08423,,
+Domain adaptation for time series under feature and label shifts,18,2023
+"H He, O Queen, T Koker, C Cuevas, T Tsiligkaridis, M Zitnik",,
+"International Conference on Machine Learning, 12746-12774",,
+Multimodal learning on graphs for disease relation extraction,14,2023
+"Y Lin, K Lu, S Yu, T Cai, M Zitnik",,
+"Journal of Biomedical Informatics 143, 104415",,
+A Systematic Survey in Geometric Deep Learning for Structure-based Drug Design,7,2023
+"Z Zhang, J Yan, Q Liu, E Che, M Zitnik",,
+arXiv preprint arXiv:2306.11768,,
+Structure-inducing pre-training,8,2023
+"MBA McDermott, B Yap, P Szolovits, M Zitnik",,
+"Nature Machine Intelligence 5 (6), 612-621",,
+Metapaths: similarity search in heterogeneous knowledge graphs via meta-paths,,2023
+"A Noori, MM Li, ALM Tan, M Zitnik",,
+"Bioinformatics 39 (5), btad297",,
+Integrating domain knowledge and deep learning for enhanced chest X-ray diagnosis and localization,,2023
+Y Han,,
+Multimodal learning with graphs,36,2023
+"Y Ektefaie, G Dasoulas, A Noori, M Farhat, M Zitnik",,
+"Nature Machine Intelligence 5 (4), 340-350",,
+Zero-shot drug repurposing with geometric deep learning and clinician centered design,10,2023
+"K Huang, P Chandak, Q Wang, S Havaldar, A Vaid, J Leskovec, ...",,
+"medRxiv, 2023.03. 19.23287458",,
+Evaluating explainability for graph neural networks,54,2023
+"C Agarwal, O Queen, H Lakkaraju, M Zitnik",,
+"Scientific Data 10 (1), 144",,
+Biomonitoring and precision health in deep space supported by artificial intelligence,7,2023
+"RT Scott, LM Sanders, EL Antonsen, JJA Hastings, S Park, G Mackintosh, ...",,
+"Nature Machine Intelligence 5 (3), 196-207",,
+Biological research and self-driving labs in deep space supported by artificial intelligence,6,2023
+"LM Sanders, RT Scott, JH Yang, AA Qutub, H Garcia Martin, DC Berrios, ...",,
+"Nature Machine Intelligence 5 (3), 208-219",,
+GNNDelete: A general strategy for unlearning in graph neural networks,18,2023
+"J Cheng, G Dasoulas, H He, C Agarwal, M Zitnik",,
+arXiv preprint arXiv:2302.13406,,
+Space Biology Beyond LEO Instrumentation & Science Series Science Working Group 2022 Annual Report,1,2023
+"E Blaber, T Boothby, CE Carr, RC Everroad, J Foster, J Galazka, JA Lee, ...",,
+Building a knowledge graph to enable precision medicine,107,2023
+"P Chandak, K Huang, M Zitnik",,
+"Scientific Data 10 (1), 67",,
+Multimodal representation learning for predicting molecule–disease relations,7,2023
+"J Wen, X Zhang, E Rush, VA Panickan, X Li, T Cai, D Zhou, YL Ho, ...",,
+"Bioinformatics 39 (2), btad085",,
+Scoping review of knowledge graph applications in biomedical and healthcare sciences,,2023
+"S Budhdeo, J Zhang, Y Abdulle, PM Agapow, DGJ McKechnie, M Archer, ...",,
+"medRxiv, 2023.12. 13.23299844",,
+"Building a knowledge graph to enable precision medicine. Scientific Data 10, 1 (2023), 67",2,2023
+"P Chandak, K Huang, M Zitnik",,
+Zero-shot prediction of therapeutic use with geometric deep learning and clinician centered design. medRxiv,,2023
+"K Huang, P Chandak, Q Wang, S Havaldar, A Vaid, J Leskovec, ...",,
+Comparison of BERT implementations for natural language processing of narrative medical documents,14,2023
+"A Turchin, S Masharsky, M Zitnik",,
+"Informatics in Medicine Unlocked 36, 101139",,
+Deep learning for diagnosing patients with rare genetic diseases,3,2022
+"E Alsentzer, MM Li, SN Kobren, IS Kohane, M Zitnik",,
+medRxiv,,
+Openxai: Towards a transparent evaluation of model explanations,84,2022
+"C Agarwal, S Krishna, E Saxena, M Pawelczyk, N Johnson, I Puri, M Zitnik, ...",,
+"Advances in Neural Information Processing Systems 35, 15784-15799",,
+Self-supervised contrastive pre-training for time series via time-frequency consistency,129,2022
+"X Zhang, Z Zhao, T Tsiligkaridis, M Zitnik",,
+"Advances in Neural Information Processing Systems 35, 3988-4003",,
+Graph representation learning in biomedicine and healthcare,114,2022
+"MM Li, K Huang, M Zitnik",,
+"Nature Biomedical Engineering 6 (12), 1353-1369",,
+A manifesto on explainability for artificial intelligence in medicine,59,2022
+"C Combi, B Amico, R Bellazzi, A Holzinger, JH Moore, M Zitnik, ...",,
+"Artificial Intelligence in Medicine 133, 102423",,
+Extending the nested model for user-centric XAI: A design study on GNN-based drug repurposing,23,2022
+"Q Wang, K Huang, P Chandak, M Zitnik, N Gehlenborg",,
+"IEEE Transactions on Visualization and Computer Graphics 29 (1), 1266-1276",,
+Artificial intelligence foundation for therapeutic science,74,2022
+"K Huang, T Fu, W Gao, Y Zhao, Y Roohani, J Leskovec, CW Coley, ...",,
+"Nature chemical biology 18 (10), 1033-1036",,
+Enhancing convolutional neural network predictions of electrocardiograms with left ventricular dysfunction using a novel sub-waveform representation,2,2022
+"H Honarvar, C Agarwal, S Somani, A Vaid, J Lampert, T Wanyan, ...",,
+"Cardiovascular digital health journal 3 (5), 220-231",,
+Identification of potent inhibitors of SARS-CoV-2 infection by combined pharmacological evaluation and cellular network prioritization,9,2022
+"JJ Patten, PT Keiser, D Morselli-Gysi, G Menichetti, H Mori, CJ Donahue, ...",,
+Iscience 25 (9),,
+Network Medicine Framework for Identifying Drug Repurposing Opportunities,1,2022
+"DM Gysi, AL Barábasi, IF Do Valle, O Varol, X Gan, A Ameli, J Loscalzo, ...",,
+"US Patent App. 17/456,519",,
+Sparse dictionary learning recovers pleiotropy from human cell fitness screens,17,2022
+"J Pan, JJ Kwon, JA Talamas, AA Borah, F Vazquez, JS Boehm, ...",,
+"Cell systems 13 (4), 286-303. e10",,
+Rethinking stability for attribution-based explanations,29,2022
+"C Agarwal, N Johnson, M Pawelczyk, S Krishna, E Saxena, M Zitnik, ...",,
+arXiv preprint arXiv:2203.06877,,
+Editorial deep learning and graph embeddings for network biology,11,2022
+"PH Guzzi, M Zitnik",,
+IEEE/ACM Transactions on Computational Biology and Bioinformatics 19 (02 …,,
+Probing GNN Explainers: A Rigorous Theoretical and Empirical Analysis of GNN Explanation Methods,49,2022
+"C Agarwal, M Zitnik, H Lakkaraju",,
+Proceedings of the International Conference on Artificial Intelligence and …,,
+"Graph representation learning in biomedicine and healthcare. Nature Biomedical Engineering 6, 12 (12 2022), 1353–1369",2,2022
+"MM Li, K Huang, M Zitnik",,
+Self-Supervised Contrastive Pre-Training For Time Series via Time-Frequency Consistency. CoRR abs/2206.08496 (2022),2,2022
+"X Zhang, Z Zhao, T Tsiligkaridis, M Zitnik",,
+arXiv preprint arXiv:2206.08496 10,,
+"Undiagnosed Diseases Network, Isaac S. Kohane, and Marinka Zitnik. Deep learning for diagnosing patients with rare genetic diseases",3,2022
+"E Alsentzer, MM Li, NK Shilpa",,
+medRxiv,,
+Mutual interactors as a principle for phenotype discovery in molecular interaction networks,3,2022
+"S Eyuboglu, M Zitnik, J Leskovec",,
+"PACIFIC SYMPOSIUM ON BIOCOMPUTING 2023: Kohala Coast, Hawaii, USA, 3–7 …",,
+Session Introduction: Graph Representations and Algorithms in Biomedicine,,2022
+"B Chrisman, M Varma, S Maleki, M Brbic, C Joslyn, M Zitnik",,
+"PACIFIC SYMPOSIUM ON BIOCOMPUTING 2023: Kohala Coast, Hawaii, USA, 3–7 …",,
+An Explainable AI Library for Benchmarking Graph Explainers,,2022
+"C Agarwal, O Queen, H Lakkaraju, M Zitnik",,
+"Beyond low earth orbit: biomonitoring, artificial intelligence, and precision space health",5,2021
+"RT Scott, EL Antonsen, LM Sanders, JJA Hastings, S Park, G Mackintosh, ...",,
+arXiv preprint arXiv:2112.12554,,
+"Beyond low earth orbit: biological research, artificial intelligence, and self-driving labs",2,2021
+"LM Sanders, JH Yang, RT Scott, AA Qutub, HG Martin, DC Berrios, ...",,
+arXiv preprint arXiv:2112.12582,,
+Contrastive learning improves critical event prediction in COVID-19 patients,31,2021
+"T Wanyan, H Honarvar, SK Jaladanki, C Zang, N Naik, S Somani, ...",,
+Patterns 2 (12),,
+Towards a unified framework for fair and stable graph representation learning,161,2021
+"C Agarwal, H Lakkaraju, M Zitnik",,
+"Uncertainty in Artificial Intelligence, 2114-2124",,
+Quantifying the variation in neonatal transport referral patterns using network analysis,2,2021
+"SN Kunz, D Helkey, M Zitnik, CS Phibbs, J Rigdon, JAF Zupancic, J Profit",,
+"Journal of Perinatology 41 (12), 2795-2803",,
+Co-evolution based machine-learning for predicting functional interactions between human genes,13,2021
+"D Stupp, E Sharon, I Bloch, M Zitnik, O Zuk, Y Tabach",,
+"Nature Communications 12 (1), 6454",,
+Graph-guided network for irregularly sampled multivariate time series,68,2021
+"X Zhang, M Zeman, T Tsiligkaridis, M Zitnik",,
+arXiv preprint arXiv:2110.05357,,
+Population-scale identification of differential adverse events before and during a pandemic,6,2021
+"X Zhang, M Sumathipala, M Zitnik",,
+"Nature Computational Science 1 (10), 666-677",,
+Leveraging the Cell Ontology to classify unseen cell types,45*,2021
+"S Wang, AO Pisco, A McGeever, M Brbic, M Zitnik, S Darmanis, ...",,
+"Nature communications 12 (1), 5556",,
+ISMB/ECCB 2021 proceedings,2,2021
+"C Dessimoz, TM Przytycka",,
+"Bioinformatics 37 (Supplement_1), i7-i8",,
+Deep contextual learners for protein networks,4,2021
+"MM Li, M Zitnik",,
+arXiv preprint arXiv:2106.02246,,
+Network medicine framework for identifying drug-repurposing opportunities for COVID-19,419,2021
+"D Morselli Gysi, Í Do Valle, M Zitnik, A Ameli, X Gan, O Varol, ...",,
+"Proceedings of the National Academy of Sciences 118 (19), e2025581118",,
+"Multidose evaluation of 6,710 drug repurposing library identifies potent SARS-CoV-2 infection inhibitors In Vitro and In Vivo",12*,2021
+"JJ Patten, PT Keiser, D Gysi, G Menichetti, H Mori, CJ Donahue, X Gan, ...",,
+"bioRxiv, 2021.04. 20.440626",,
+Summary of tutorials at the Web Conference 2021,3,2021
+"R West, S Bhagat, P Groth, M Zitnik, FM Couto, P Lisena, ...",,
+"Companion Proceedings of the Web Conference 2021, 727-733",,
+Graph Representation Learning in Biomedicine,12,2021
+"MM Li, K Huang, M Zitnik",,
+arXiv preprint arXiv:2104.04883,,
+"Representation learning for networks in biology and medicine: Advancements, challenges, and opportunities",37,2021
+"MM Li, K Huang, M Zitnik",,
+Identification of disease treatment mechanisms through the multiscale interactome,101,2021
+"C Ruiz, M Zitnik, J Leskovec",,
+"Nature communications 12 (1), 1796",,
+Guest editorial: AI for COVID-19,1,2021
+"Y Dong, M Zitnik",,
+"IEEE Transactions on Big Data 7 (1), 1-2",,
+Therapeutics data commons: Machine learning datasets and tasks for drug discovery and development,195,2021
+"K Huang, T Fu, W Gao, Y Zhao, Y Roohani, J Leskovec, CW Coley, ...",,
+arXiv preprint arXiv:2102.09548,,
+Population-scale patient safety data reveal inequalities in adverse events before and during COVID-19 pandemic,1,2021
+"X Zhang, M Sumathipala, M Zitnik",,
+"medRxiv, 2021.01. 17.21249988",,
+"Graph-Guided Network for Irregularly Sampled Multivariate Time Series. ICLR 2022-10th International Conference on Learning Representations (oct 2021), 1–21",2,2021
+"X Zhang, M Zeman, T Tsiligkaridis, M Zitnik",,
+arXiv preprint arxiv:2110.05357,,
+Contrastive Learning Improves Critical Event Prediction in COVID-19 Patients (preprint),,2021
+"T Wanyan, H Honarvar, SK Jaladanki, C Zang, N Naik, S Somani, ...",,
+"Graph Based Machine Learning for Healthcare: State of the Art, Challenges, and Opportunities.",,2021
+"Y Luo, F Wang, M Zitnik, S Ji",,
+AMIA,,
+Population-scale patient safety data reveal inequalities in adverse events before and during COVID-19 pandemic (preprint),,2021
+"X Zhang, M Sumathipala, M Zitnik",,
+Rethinking relational encoding in language model: Pre-training for general sequences,1,2021
+"M McDermott, B Yap, P Szolovits, M Zitnik",,
+arXiv preprint arXiv:2103.10334,,
+Interactive Visual Explanations for Deep Drug Repurposing,1,2021
+"Q Wang, K Huang, P Chandak, N Gehlenborg, M Zitnik",,
+"Connor W 479 Coley, Cao Xiao, Jimeng Sun, and Marinka Zitnik. Therapeutics data commons: machine 480 learning datasets and tasks for therapeutics",3,2021
+"K Huang, T Fu, W Gao, Y Zhao, Y Roohani, J Leskovec",,
+arXiv preprint arXiv:2102.09548 481,,
+Towards a rigorous theoretical analysis and evaluation of gnn explanations,8,2021
+"C Agarwal, M Zitnik, H Lakkaraju",,
+arXiv preprint arXiv:2106.09078,,
+SkipGNN: predicting molecular interactions with skip-graph networks,125,2020
+"K Huang, C Xiao, LM Glass, M Zitnik, J Sun",,
+"Scientific reports 10 (1), 21092",,
+MARS: discovering novel cell types across heterogeneous single-cell experiments,96,2020
+"M Brbi?, M Zitnik, S Wang, AO Pisco, RB Altman, S Darmanis, J Leskovec",,
+"Nature methods 17 (12), 1200-1206",,
+Moldesigner: Interactive design of efficacious drugs with deep learning,7,2020
+"K Huang, T Fu, D Khan, A Abid, A Abdalla, A Abid, LM Glass, M Zitnik, ...",,
+arXiv preprint arXiv:2010.03951,,
+Interpretability of machine learning?based prediction models in healthcare,322,2020
+"G Stiglic, P Kocbek, N Fijacko, M Zitnik, K Verbert, L Cilar",,
+Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 10 (5 …,,
+"Open Graph Benchmark: Datasets for Machine Learning on Graphs. arXiv e-prints, art",2,2020
+"W Hu, M Fey, M Zitnik, Y Dong, H Ren, B Liu, M Catasta, J Leskovec",,
+arXiv preprint arXiv:2005.00687,,
+DeepPurpose: a Deep Learning Library for Drug-Target Interaction Prediction and Applications to Repurposing and Screening,291*,2020
+"K Huang, T Fu, L Glass, M Zitnik, C Xiao, J Sun",,
+arXiv preprint arXiv:2004.08919,,
+Discovering novel cell types across heterogeneous single-cell experiments,3,2020
+"M Brbi?, M Zitnik, S Wang, AO Pisco, RB Altman, S Darmanis, J Leskovec",,
+"BioRxiv, 2020.02. 25.960302",,
+Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19 (preprint),,2020
+"DM Gysi, Í Do Valle, M Zitnik, A Ameli, X Gan, O Varol, SD Ghiassian, ...",,
+Subgraph neural networks,3,2020
+"A Emily, F Samuel, L Michelle, Z Marinka",,
+"Advances in Neural Information Processing Systems 33, 8017-8029",,
+"Interpretability of Machine Learning-based Prediction Models in Healthcare. WIREs Data Mining and Knowledge Discovery 10, 5 (Sept. 2020), e1379",2,2020
+"G Stiglic, P Kocbek, N Fijacko, M Zitnik, K Verbert, L Cilar",,
+arXiv preprint arXiv:2002.08596,,
+Open graph benchmark: Datasets for machine learning on graphs. arXiv preprint (2020),2,2020
+"W Hu, M Fey, M Zitnik, Y Dong, H Ren, B Liu, M Catasta, J Leskovec",,
+"Leskovec Jure, Open graph benchmark: Datasets for machine learning on graphs",,2020
+"H Weihua, F Matthias, Z Marinka, D Yuxiao, R Hongyu, L Bowen, ...",,
+arXiv preprint arXiv:2005.00687,,
+Strategies for pre-training graph neural networks. arXiv,,2020
+"W Hu, B Liu, J Gomes, M Zitnik, P Liang, V Pande, J Leskovec",,
+Learning,,
+Subgraph neural networks,109,2020
+"E Alsentzer, S Finlayson, M Li, M Zitnik",,
+"Advances in Neural Information Processing Systems 33, 8017-8029",,
+Gnnguard: Defending graph neural networks against adversarial attacks,236,2020
+"X Zhang, M Zitnik",,
+"Advances in neural information processing systems 33, 9263-9275",,
+Graph meta learning via local subgraphs,153,2020
+"K Huang, M Zitnik",,
+"Advances in neural information processing systems 33, 5862-5874",,
+Open graph benchmark: Datasets for machine learning on graphs,2193,2020
+"W Hu, M Fey, M Zitnik, Y Dong, H Ren, B Liu, M Catasta, J Leskovec",,
+"Advances in neural information processing systems 33, 22118-22133",,
+"Machine learning for integrating data in biology and medicine: Principles, practice, and opportunities",472,2019
+"M Zitnik, F Nguyen, B Wang, J Leskovec, A Goldenberg, MM Hoffman",,
+"Information Fusion 50, 71-91",,
+Fast optimization of non-negative matrix tri-factorization,26,2019
+"A ?opar, B Zupan, M Zitnik",,
+"PloS one 14 (6), e0217994",,
+"Machine learning, practically speaking",26,2019
+V Marx,,
+"Nature Methods 16 (6), 463-467",,
+Strategies for pre-training graph neural networks,1183,2019
+"W Hu, B Liu, J Gomes, M Zitnik, P Liang, V Pande, J Leskovec",,
+arXiv preprint arXiv:1905.12265,,
+Cross-type biomedical named entity recognition with deep multi-task learning,290,2019
+"X Wang, Y Zhang, X Ren, Y Zhang, M Zitnik, J Shang, C Langlotz, J Han",,
+"Bioinformatics 35 (10), 1745-1752",,
+Pre-training graph neural networks,49,2019
+"W Hu, B Liu, J Gomes, M Zitnik, P Liang, V Pande, J Leskovec",,
+arXiv preprint arXiv:1905.12265,,
+To embed or not: network embedding as a paradigm in computational biology,148,2019
+"W Nelson, M Zitnik, B Wang, J Leskovec, A Goldenberg, R Sharan",,
+"Frontiers in genetics 10, 452819",,
+Gnn explainer: A tool for post-hoc explanation of graph neural networks,72,2019
+"R Ying, D Bourgeois, J You, M Zitnik, J Leskovec",,
+arXiv preprint arXiv:1903.03894 8,,
+"Leskovec Jure, Goldenberg Anna, Hoffman Michael M",3,2019
+"Z Marinka, N Francis, W Bo",,
+Machine learning for integrating data in biology and medicine: Principles …,,
+Gnnexplainer: Generating explanations for graph neural networks,1956*,2019
+"Z Ying, D Bourgeois, J You, M Zitnik, J Leskovec",,
+Advances in neural information processing systems 32,,
+Evolution of resilience in protein interactomes across the tree of life,131,2019
+"M Zitnik, R Sosic, MW Feldman, J Leskovec",,
+"Proceedings of the National Academy of Sciences 116 (10), 4426-4433",,

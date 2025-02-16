@@ -1,0 +1,294 @@
+TITLE,CITED BY,YEAR
+Heterogeneity and predictors of the effects of AI assistance on radiologists,,2024
+"F Yu, A Moehring, O Banerjee, T Salz, N Agarwal, P Rajpurkar",,
+"Nature Medicine, 1-13",,
+Comparative Advantage of Humans vs AI in the Long Tail,,2024
+"N Agarwal, R Huang, A Moehring, P Rajpurkar, T Salz, F Yu",,
+CRAFT-MD: A Conversational Evaluation Framework for Comprehensive Assessment of Clinical LLMs,,2024
+"S Johri, J Jeong, BA Tran, DI Schlessinger, S Wongvibulsin, ZR Cai, ...",,
+AAAI 2024 Spring Symposium on Clinical Foundation Models,,
+Adapting Segment Anything Models to Medical Imaging via Fine-Tuning without Domain Pretraining,,2024
+"K Li, P Rajpurkar",,
+AAAI 2024 Spring Symposium on Clinical Foundation Models,,
+Video pretraining advances 3D deep learning on chest CT tasks,1,2024
+"A Ke, SC Huang, CP O’Connell, M Klimont, S Yeung, P Rajpurkar",,
+"Medical Imaging with Deep Learning, 758-774",,
+Multimodal image-text matching improves retrieval-based chest x-ray report generation,16,2024
+"J Jeong, K Tian, A Li, S Hartung, S Adithan, F Behzadi, J Calle, ...",,
+"Medical Imaging with Deep Learning, 978-990",,
+The MAIDA initiative: establishing a framework for global medical-imaging data sharing,1,2024
+"A Saenz, E Chen, H Marklund, P Rajpurkar",,
+"The Lancet Digital Health 6 (1), e6-e8",,
+RadGraph2: Modeling Disease Progression in Radiology Reports via Hierarchical Information Extraction,1,2023
+"S Khanna, A Dejl, K Yoon, SQH Truong, H Duong, A Saenz, P Rajpurkar",,
+"Machine Learning for Healthcare Conference, 381-402",,
+Med-flamingo: a multimodal medical few-shot learner,47,2023
+"M Moor, Q Huang, S Wu, M Yasunaga, Y Dalmia, J Leskovec, C Zakka, ...",,
+"Machine Learning for Health (ML4H), 353-367",,
+LymphoML: An interpretable artificial intelligence-based method identifies morphologic features that correlate with lymphoma subtype,2,2023
+"V Shankar, X Yang, V Krishna, B Tan, O Silva, R Rojansky, A Ng, ...",,
+"Machine Learning for Health (ML4H), 528-558",,
+Learning Generalized Medical Image Representations Through Image-Graph Contrastive Pretraining,,2023
+"S Khanna, D Michael, M Zitnik, P Rajpurkar",,
+"Machine Learning for Health (ML4H), 232--243",,
+A framework for integrating artificial intelligence for clinical care with continuous therapeutic monitoring,4,2023
+"E Chen, S Prakash, V Janapa Reddi, D Kim, P Rajpurkar",,
+"Nature Biomedical Engineering, 1-10",,
+Multimodal Clinical Benchmark for Emergency Care (MC-BEC): A Comprehensive Benchmark for Evaluating Foundation Models in Emergency Medicine,1,2023
+"E Chen, A Kansal, J Chen, BT Jin, JR Reisler, DA Kim, P Rajpurkar",,
+Thirty-seventh Conference on Neural Information Processing Systems Datasets …,,
+Style-Aware Radiology Report Generation with RadGraph and Few-Shot Prompting,2,2023
+"B Yan, R Liu, DE Kuo, S Adithan, EP Reis, S Kwak, VK Venugopal, ...",,
+arXiv preprint arXiv:2310.17811,,
+Systems and methods for radiology image classification from noisy images,,2023
+"S Zhou, AY Ng, P Rajpurkar, M Sabini, C Wang, NM Phu, A Kiani, J Irvin, ...",,
+"US Patent 11,798,159",,
+Exploring the Boundaries of GPT-4 in Radiology,9,2023
+"Q Liu, S Hyland, S Bannur, K Bouzid, DC Castro, MT Wetscherek, R Tinn, ...",,
+arXiv preprint arXiv:2310.14573,,
+AI-clinician collaboration via disagreement prediction: A decision pipeline and retrospective analysis of real-world radiologist-AI interactions,1,2023
+"M Sanchez, K Alford, V Krishna, TM Huynh, CDT Nguyen, MP Lungren, ...",,
+Cell Reports Medicine 4 (10),,
+"Autonomous AI systems in the face of liability, regulations and costs",6,2023
+"AD Saenz, Z Harned, O Banerjee, MD Abràmoff, P Rajpurkar",,
+"npj Digital Medicine 6 (1), 185",,
+Guidelines For Rigorous Evaluation of Clinical LLMs For Conversational Reasoning,,2023
+"S Johri, J Jeong, BA Tran, DI Schlessinger, S Wongvibulsin, ZR Cai, ...",,
+"medRxiv, 2023.09. 12.23295399",,
+Evaluating progress in automatic chest x-ray radiology report generation,28,2023
+"F Yu, M Endo, R Krishnan, I Pan, A Tsai, EP Reis, EKUN Fonseca, ...",,
+Patterns 4 (9),,
+Augmenting medical image classifiers with synthetic data from latent diffusion models,3,2023
+"LW Sagers, JA Diao, L Melas-Kyriazi, M Groh, P Rajpurkar, AS Adamson, ...",,
+arXiv preprint arXiv:2308.12453,,
+Combining Human Expertise with Artificial Intelligence: Experimental Evidence from Radiology,47,2023
+"N Agarwal, A Moehring, P Rajpurkar, T Salz",,
+National Bureau of Economic Research,,
+"AI-based pathologic biomarker for pathologic downstaging in patients with muscle-invasive bladder cancer undergoing cystectomy after neoadjuvant nivolumab, gemcitabine, and …",,2023
+"V Krishna, GP Sonpavde, S Gupta, BL Maughan, N Agarwal, M Eckstein, ...",,
+"Journal of Clinical Oncology 41 (16_suppl), e16566-e16566",,
+The Current and Future State of AI Interpretation of Medical Images,104,2023
+"P Rajpurkar, MP Lungren",,
+"New England Journal of Medicine 388 (21), 1981-1990",,
+Improving Zero-Shot Detection of Low Prevalence Chest Pathologies using Domain Pre-trained Language Models,3,2023
+"A Mishra, R Mittal, C Jestin, K Tingos, P Rajpurkar",,
+"Medical Imaging with Deep Learning, short paper track",,
+Development of an artificial intelligence-derived histologic signature associated with adjuvant gemcitabine treatment outcomes in pancreatic cancer,3,2023
+"V Nimgaonkar, V Krishna, V Krishna, E Tiu, A Joshi, D Vrabac, ...",,
+Cell Reports Medicine 4 (4),,
+BenchMD: A Benchmark for Modality-Agnostic Learning on Medical Images and Sensors,6,2023
+"K Wantlin, C Wu, SC Huang, O Banerjee, F Dadabhoy, VV Mehta, ...",,
+arXiv preprint arXiv:2304.08486,,
+Foundation models for generalist medical artificial intelligence,370,2023
+"M Moor, O Banerjee, ZSH Abad, HM Krumholz, J Leskovec, EJ Topol, ...",,
+"Nature 616 (7956), 259-265",,
+Predicting patient decompensation from continuous physiologic monitoring in the emergency department,5,2023
+"S Sundrani, J Chen, BT Jin, ZSH Abad, P Rajpurkar, D Kim",,
+"npj Digital Medicine 6 (1), 60",,
+Targeted plasma metabolomics combined with machine learning for the diagnosis of severe acute respiratory syndrome virus type 2,1,2023
+"AT Le, M Wu, A Khan, N Phillips, P Rajpurkar, M Garland, K Magid, ...",,
+"Frontiers in Microbiology 13, 1059289",,
+Development of artificial intelligence–derived histological biomarkers for first-line treatment selection in metastatic pancreatic ductal adenocarcinoma (mPDAC).,,2023
+"V Krishna, E Tiu, V Krishna, D Vrabac, K Shah, W Abuzeid, K Smith, ...",,
+"Journal of Clinical Oncology 41 (4_suppl), 743-743",,
+ReFiSco: Report Fix and Score Dataset for Radiology Report Generation,,2023
+"K Tian, SJ Hartung, AA Li, J Jeong, F Behzadi, J Calle-Toro, S Adithan, ...",,
+Randomized Controlled Trials Evaluating AI in Clinical Practice: A Scoping Evaluation,7,2023
+"R Han, JN Acosta, Z Shakeri, J Ioannidis, E Topol, P Rajpurkar",,
+"medRxiv, 2023.09. 12.23295381",,
+Testing the Limits of Language Models: A Conversational Framework for Medical AI Assessment,1,2023
+"S Johri, J Jeong, BA Tran, DI Schlessinger, S Wongvibulsin, ZR Cai, ...",,
+medRxiv,,
+Radiology Report Expert Evaluation (ReXVal) Dataset,2,2023
+"F Yu, M Endo, R Krishnan, I Pan, A Tsai, EP Reis, EKU Fonseca, H Lee, ...",,
+A proof of concept for a deep learning system that can aid embryologists in predicting blastocyst survival after thaw,4,2022
+"P Marsh, D Radif, P Rajpurkar, Z Wang, E Hariton, S Ribeiro, R Simbulan, ...",,
+"Scientific Reports 12 (1), 21119",,
+MedSelect: Selective Labeling for Medical Image Classification Using Meta-Learning,10*,2022
+"D Vrabac, A Smit, Y He, AY Ng, AL Beam, P Rajpurkar",,
+"International Conference on Medical Imaging with Deep Learning, 1301-1310",,
+Expert-level detection of pathologies from unannotated chest X-ray images via self-supervised learning,134,2022
+"E Tiu, E Talius, P Patel, CP Langlotz, AY Ng, P Rajpurkar",,
+"Nature Biomedical Engineering 6 (12), 1399-1406",,
+Self-supervised learning in medicine and healthcare,195,2022
+"R Krishnan, P Rajpurkar, EJ Topol",,
+"Nature Biomedical Engineering 6 (12), 1346-1352",,
+Improving dermatology classifiers across populations using images generated by large diffusion models,15,2022
+"LW Sagers, JA Diao, M Groh, P Rajpurkar, AS Adamson, AK Manrai",,
+NeurIPS 2022 Workshop on Synthetic Data for Empowering ML Research,,
+Improving Radiology Report Generation Systems by Removing Hallucinated References to Non-existent Priors,15,2022
+"V Ramesh, NA Chi, P Rajpurkar",,
+"Machine Learning for Health, 456-473",,
+Benchmarking saliency methods for chest X-ray interpretation,130*,2022
+"A Saporta, X Gui, A Agrawal, A Pareek, SQH Truong, CDT Nguyen, ...",,
+"Nature Machine Intelligence, 1-12",,
+Transfer learning enables prediction of myocardial injury from continuous single-lead electrocardiography,6,2022
+"BT Jin, R Palleti, S Shi, AY Ng, JV Quinn, P Rajpurkar, D Kim",,
+"Journal of the American Medical Informatics Association 29 (11), 1908-1918",,
+Multimodal biomedical AI,296,2022
+"JN Acosta, GJ Falcone, P Rajpurkar, EJ Topol",,
+"Nature Medicine 28 (9), 1773-1784",,
+The need for medical artificial intelligence that incorporates prior images,19,2022
+"JN Acosta, GJ Falcone, P Rajpurkar",,
+"Radiology 304 (2), 283-288",,
+Gemcitabine response prediction in the adjuvant treatment of resected pancreatic ductal adenocarcinoma using an AI histopathology platform.,1,2022
+"V Krishna, V Nimgaonkar, E Tiu, V Krishna, H Bhambhvani, S Cook, ...",,
+"Journal of Clinical Oncology 40 (16_suppl), e16295-e16295",,
+CheXED: Comparison of a Deep Learning Model to a Clinical Decision Support System for Pneumonia in the Emergency Department,6,2022
+"JA Irvin, A Pareek, J Long, P Rajpurkar, DKM Eng, N Khandwala, ...",,
+"Journal of thoracic imaging 37 (3), 162-167",,
+Machine learning analysis for metabolomics classification and biomarker discovery,,2022
+"C Hogan, P Rajpurkar, BA Pinsky, AT Le",,
+"US Patent App. 17/475,271",,
+Contrastive learning of heart and lung sounds for label-efficient diagnosis,22,2022
+"PN Soni, S Shi, PR Sriram, AY Ng, P Rajpurkar",,
+Patterns 3 (1),,
+Deep Learning-Based Sparse Whole-Slide Image Analysis for the Diagnosis of Gastric Intestinal Metaplasia,2,2022
+"J Braatz, P Rajpurkar, S Zhang, AY Ng, J Shen",,
+arXiv preprint arXiv:2201.01449,,
+Targeted plasma metabolomics combined with machine learning for the diagnosis of severe acute respiratory syndrome virus type 2,,2022
+"AT Le, M Wu, A Khan, N Phillips, P Rajpurkar, M Garland, K Magid, ...",,
+Frontiers in Microbiology 13,,
+CXR-PRO: MIMIC-CXR with Prior References Omitted,,2022
+"V Ramesh, N Chi, P Rajpurkar",,
+Self-Supervised Pretraining Enables High-Performance Chest X-Ray Interpretation Across Clinical Distributions,2,2022
+"NS Iyer, A Gulati, O Banerjee, C Logé, M Farhat, A Saenz, P Rajpurkar",,
+"medRxiv, 2022.11. 19.22282519",,
+AI in health and medicine,901,2022
+"P Rajpurkar, E Chen, O Banerjee, EJ Topol",,
+"Nature Medicine 28 (1), 31-38",,
+Retrieval-Based Chest X-Ray Report Generation Using a Pre-trained Contrastive Language-Image Model,55,2021
+"M Endo, R Krishnan, V Krishna, AY Ng, P Rajpurkar",,
+"Machine Learning for Health, 209-219",,
+3KG: Contrastive Learning of 12-Lead Electrocardiograms using Physiologically-Inspired Augmentations,42,2021
+"B Gopal, R Han, G Raghupathi, A Ng, G Tison, P Rajpurkar",,
+"Machine Learning for Health, 156-167",,
+A machine learning algorithm can optimize the day of trigger to improve in vitro fertilization outcomes,27,2021
+"E Hariton, EA Chi, G Chi, JR Morris, J Braatz, P Rajpurkar, M Rosen",,
+"Fertility and Sterility 116 (5), 1227-1235",,
+Chexbreak: Misclassification identification for deep learning models interpreting chest x-rays,4,2021
+"E Chen, A Kim, R Krishnan, J Long, AY Ng, P Rajpurkar",,
+"Machine Learning for Healthcare Conference, 103-125",,
+Medaug: Contrastive learning leveraging patient metadata improves representations for chest x-ray interpretation,76,2021
+"YNT Vu, R Wang, N Balachandar, C Liu, AY Ng, P Rajpurkar",,
+"Machine Learning for Healthcare Conference, 755-769",,
+Nasopharyngeal metabolomics and machine learning approach for the diagnosis of influenza,21,2021
+"CA Hogan, P Rajpurkar, H Sowrirajan, NA Phillips, AT Le, M Wu, ...",,
+EBioMedicine 71,,
+Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays,3*,2021
+"S Shi, I Malhi, K Tran, AY Ng, P Rajpurkar",,
+"Medical Imaging with Deep Learning, 699-712",,
+Moco pretraining improves representation and transferability of chest x-ray models,177,2021
+"H Sowrirajan, J Yang, AY Ng, P Rajpurkar",,
+"Medical Imaging with Deep Learning, 728-744",,
+Chexseg: Combining expert annotations with dnn-generated saliency maps for x-ray segmentation,11,2021
+"SU Gadgil, M Endo, E Wen, AY Ng, P Rajpurkar",,
+"Medical Imaging with Deep Learning, 190-204",,
+Q-Pain: A Question Answering Dataset to Measure Social Bias in Pain Management,12,2021
+"C Logé, E Ross, DYA Dadey, S Jain, A Saporta, AY Ng, P Rajpurkar",,
+Thirty-fifth Conference on Neural Information Processing Systems Datasets …,,
+Development and validation of an artificial intelligence system to optimize clinician review of patient records,21,2021
+"EA Chi, G Chi, CT Tsui, Y Jiang, K Jarr, CV Kulkarni, M Zhang, J Long, ...",,
+"JAMA network open 4 (7), e2117391-e2117391",,
+RadGraph: Extracting Clinical Entities and Relations from Radiology Reports,100,2021
+"S Jain, A Agrawal, A Saporta, SQH Truong, DN Duong, T Bui, P Chambon, ...",,
+Thirty-fifth Conference on Neural Information Processing Systems Datasets …,,
+Deep Learning for Medical Image Interpretation,2,2021
+P Rajpurkar,,
+Stanford University,,
+Improving Hospital Readmission Prediction using Individualized Utility Analysis,14,2021
+"M Ko, E Chen, A Agrawal, P Rajpurkar, A Avati, A Ng, S Basu, NH Shah",,
+"Journal of Biomedical Informatics, 103826",,
+Automated coronary calcium scoring using deep learning with multicenter external validation,69,2021
+"D Eng, C Chute, N Khandwala, P Rajpurkar, J Long, S Shleifer, ...",,
+"NPJ digital medicine 4 (1), 88",,
+DLBCL-Morph: Morphological features computed using deep learning for an annotated digital DLBCL image set,17,2021
+"D Vrabac, A Smit, R Rojansky, Y Natkunam, RH Advani, AY Ng, ...",,
+"Scientific Data 8 (1), 1-8",,
+Structured dataset documentation: a datasheet for CheXpert,26,2021
+"C Garbin, P Rajpurkar, J Irvin, MP Lungren, O Marques",,
+arXiv preprint arXiv:2105.03020,,
+DEVELOPMENT AND VALIDATION OF AN ARTIFICIAL INTELLIGENCE SYSTEM TO OPTIMIZE CLINICIAN REVIEW OF PATIENT RECORDS,,2021
+"EA Chi, G Chi, CT Tsui, Y Jiang, K Jarr, C Kulkarni, M Zhang, J Long, ...",,
+"Gastroenterology 160 (6), S-64-S-65",,
+Effect of Radiology Report Labeler Quality on Deep Learning Models for Chest X-Ray Interpretation,8,2021
+"S Jain, A Smit, AY Ng, P Rajpurkar",,
+NeurIPS Data-Centric AI Workshop,,
+VisualCheXbert: Addressing the Discrepancy Between Radiology Report Labels and Image Labels,21,2021
+"S Jain, A Smit, SQH Truong, CDT Nguyen, MT Huynh, M Jain, VA Young, ...",,
+"ACM Conference on Health, Inference, and Learning (ACM-CHIL) 2021",,
+CheXternal: Generalization of Deep Learning Models for Chest X-ray Interpretation to Photos of Chest X-rays and External Clinical Settings,14,2021
+"P Rajpurkar, A Joshi, A Pareek, AY Ng, MP Lungren",,
+"ACM Conference on Health, Inference, and Learning (ACM-CHIL) 2021",,
+CheXtransfer: Performance and Parameter Efficiency of ImageNet Models for Chest X-Ray Interpretation,107,2021
+"A Ke, W Ellsworth, O Banerjee, AY Ng, P Rajpurkar",,
+"ACM Conference on Health, Inference, and Learning (ACM-CHIL) 2021",,
+GloFlow: Whole Slide Image Stitching from Video Using Optical Flow and Global Image Alignment,1,2021
+"V Krishna, A Joshi, D Vrabac, P Bulterys, E Yang, S Fernandez-Pol, ...",,
+Medical Image Computing and Computer Assisted Intervention–MICCAI 2021: 24th …,,
+"CheXphoto: 10,000+ photos and transformations of chest X-rays for benchmarking deep learning robustness",27,2020
+"NA Phillips, P Rajpurkar, M Sabini, R Krishnan, S Zhou, A Pareek, ...",,
+"Machine Learning for Health, 318-327",,
+CheXphotogenic: Generalization of Deep Learning Models for Chest X-ray Interpretation to Photos of Chest X-rays,2,2020
+"P Rajpurkar, A Joshi, A Pareek, J Irvin, AY Ng, M Lungren",,
+Machine Learning for Health (ML4H) at NeurIPS 2020 - Extended Abstract,,
+GloFlow: Global Image Alignment for Creation of Whole Slide Images for Pathology from Video,1,2020
+"V Krishna, A Joshi, PL Bulterys, E Yang, AY Ng, P Rajpurkar",,
+Machine Learning for Health (ML4H) at NeurIPS 2020 - Extended Abstract,,
+CheXaid: deep learning assistance for physician diagnosis of tuberculosis using chest x-rays in patients with HIV,93,2020
+"P Rajpurkar, C O’Connell, A Schechter, N Asnani, J Li, A Kiani, RL Ball, ...",,
+"NPJ digital medicine 3 (1), 115",,
+Evaluation of a Machine Learning Model Based on Pretreatment Symptoms and Electroencephalographic Features to Predict Outcomes of Antidepressant Treatment in Adults With …,53,2020
+"P Rajpurkar, J Yang, N Dass, V Vale, AS Keller, J Irvin, Z Taylor, S Basu, ...",,
+"JAMA Network Open 3 (6), e206653-e206653",,
+Incorporating machine learning and social determinants of health indicators into prospective risk adjustment for health plan payments,36,2020
+"JA Irvin, AA Kondrich, M Ko, P Rajpurkar, B Haghgoo, BE Landon, ...",,
+"BMC Public Health 20, 1-10",,
+PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging,101,2020
+"SC Huang, T Kothari, I Banerjee, C Chute, RL Ball, N Borus, A Huang, ...",,
+"NPJ digital medicine 3 (1), 61",,
+CheXbert: Combining Automatic Labelers and Expert Annotations for Accurate Radiology Report Labeling Using BERT,189,2020
+"A Smit, S Jain, P Rajpurkar, A Pareek, AY Ng, MP Lungren",,
+Proceedings of the 2020 Conference on Empirical Methods in Natural Language …,,
+AppendiXNet: deep learning for diagnosis of appendicitis from a small dataset of CT exams using video pretraining,80,2020
+"P Rajpurkar, A Park, J Irvin, C Chute, M Bereket, D Mastrodicasa, ...",,
+"Scientific reports 10 (1), 3958",,
+CheXpedition: Investigating Generalization Challenges for Translation of Chest X-Ray Algorithms to the Clinical Setting,36,2020
+"P Rajpurkar, A Joshi, A Pareek, P Chen, A Kiani, J Irvin, AY Ng, ...",,
+"ACM Conference on Health, Inference, and Learning (CHIL) Workshop 2020",,
+Impact of a deep learning assistant on the histopathologic classification of liver cancer,193,2020
+"A Kiani, B Uyumazturk, P Rajpurkar, A Wang, R Gao, E Jones, Y Yu, ...",,
+"NPJ digital medicine 3 (1), 23",,
+Automated abnormality detection in lower extremity radiographs using deep learning,73,2019
+"M Varma, M Lu, R Gardner, J Dunnmon, N Khandwala, P Rajpurkar, ...",,
+"Nature Machine Intelligence 1 (12), 578-583",,
+Human–machine partnership with artificial intelligence for chest radiograph diagnosis,160,2019
+"BN Patel, L Rosenberg, G Willcox, D Baltaxe, M Lyons, J Irvin, ...",,
+"NPJ digital medicine 2 (1), 111",,
+Deep Learning for the Digital Pathologic Diagnosis of Cholangiocarcinoma and Hepatocellular Carcinoma: Evaluating the Impact of a Web-based Diagnostic Assistant,16,2019
+"B Uyumazturk, A Kiani, P Rajpurkar, A Wang, RL Ball, R Gao, Y Yu, ...",,
+Machine Learning for Health (ML4H) at NeurIPS 2019 - Extended Abstract,,
+Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison,2235,2019
+"J Irvin, P Rajpurkar, M Ko, Y Yu, S Ciurea-Ilcus, C Chute, H Marklund, ...",,
+"Proceedings of the AAAI conference on artificial intelligence 33 (01), 590-597",,
+Deep-Learning Artificial Intelligence Model for Automated Detection of Cervical Spine Fracture on Computed Tomography (CT) Imaging,6,2019
+"SB Dunsker, M Zhang, L Kim, R Cheong, B Cohen-Wang, K Shpanskaya, ...",,
+JOURNAL OF NEUROSURGERY 131 (1),,
+AI-Augmented Diagnosis of Brain Aneurysms from CTA: A Retrospective Study,1,2019
+"R Jabarkheel, A Park, C Chute, P Rajpurkar, J Lou, K Shpanskaya, L Kim, ...",,
+JOURNAL OF NEUROSURGERY 131 (1),,
+Deep Learning–Assisted Diagnosis of Cerebral Aneurysms Using the HeadXNet Model,204,2019
+"A Park, C Chute, P Rajpurkar, J Lou, RL Ball, K Shpanskaya, ...",,
+"JAMA Network Open 2 (6), e195600-e195600",,
+AUTOMATED DETECTION OF PROSTATE CANCER ON MULTIPARAMETRIC MRI USING DEEP NEURAL NETWORKS TRAINED ON SPATIAL COORDINATES AND PATHOLOGY OF BIOPSY CORES,1,2019
+"L Chen, N Bien, R Fan, R Cheong, P Rajpurkar, A Thong, N Wang, ...",,
+"The Journal of Urology 201 (Supplement 4), e1098-e1098",,
+Clinical Value of Predicting Individual Treatment Effects for Intensive Blood Pressure Therapy: A Machine Learning Experiment to Estimate Treatment Effects from Randomized …,47,2019
+"T Duan, P Rajpurkar, D Laird, AY Ng, S Basu",,
+"Circulation: Cardiovascular Quality and Outcomes 12 (3), e005010",,
+"Machine Vision, Medical AI, and Malpractice",19,2019
+"Z Harned, MP Lungren, P Rajpurkar",,
+"Zach Harned, Matthew P. Lungren & Pranav Rajpurkar, Comment, Machine Vision …",,
+Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network,2228,2019
+"AY Hannun, P Rajpurkar, M Haghpanahi, GH Tison, C Bourn, ...",,
+"Nature medicine 25 (1), 65-69",,

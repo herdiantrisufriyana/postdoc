@@ -1,0 +1,693 @@
+---
+title: "Postdoc Search and Selection"
+author: "Herdiantri Sufriyana"
+date: "2024-01-18"
+output: html_document
+---
+
+# Programming environment
+
+```{r Set random seed, include=FALSE, paged.print=FALSE}
+seed <- 2024-01-18
+```
+
+```{r Load packages, include=FALSE}
+library(tidyverse)
+library(ggpubr)
+library(knitr)
+library(kableExtra)
+group_rows=dplyr::group_rows
+group_rows_kable=kableExtra::group_rows
+library(broom)
+library(pbapply)
+```
+
+```{r Load custom functions, include=FALSE}
+lapply(list.files("R/", pattern = "-function.R", full.names = TRUE), source)
+```
+
+```{r Set theme, include=FALSE}
+dslabs::ds_theme_set()
+kable_format <- "html"
+```
+
+```{r Session info, echo=FALSE}
+sessionInfo()
+```
+
+# Load raw data
+
+```{r Load publication list, include=FALSE}
+publications <- list.files("inst/extdata/", full.names = TRUE)
+
+publications <-  publications[str_detect(publications, "/publication\\.")]
+
+publications <-
+  publications |>
+  `names<-`(
+    str_remove_all(publications, "inst/extdata//publication\\.|\\.csv")
+  ) |>
+  lapply(read_csv, show_col_types = FALSE) |>
+  lapply(rename_all, str_to_lower) |>
+  lapply(rename_all, str_replace_all, "\\s+", "_") |>
+  lapply(
+    \(x)
+    x |>
+      left_join(
+        filter(x, !is.na(year)) |>
+          mutate(no = seq(n())) |>
+          select(-year)
+        , by = join_by(title, cited_by)
+        , relationship = "many-to-many"
+      )
+  ) |>
+  lapply(fill, no, .direction = "down") |>
+  lapply(group_by, no) |>
+  lapply(summarize_all, \(x) paste0(x[!is.na(x)], collapse=". "))
+```
+
+```{r Load university list, include=FALSE}
+universities <-  list.files("inst/extdata/", full.names = TRUE)
+
+universities <-
+  universities[str_detect(universities, "world_university_rankings_2024_")]
+
+universities <-
+  universities |>
+  `names<-`(
+    str_remove_all(
+      universities, "inst/extdata//|world_university_rankings_2024_top_|\\.csv"
+    )
+  ) |>
+  lapply(read_csv, show_col_types = FALSE) |>
+  lapply(rename_all, str_to_lower) |>
+  lapply(rename_all, str_remove_all, "\\.") |>
+  lapply(rename_all, str_replace_all, "\\s+", "_")
+```
+
+```{r Load city list, include=FALSE}
+cities <-
+  read_csv(
+    "inst/extdata/Both_top_200_university_cities.csv", show_col_types = FALSE
+  ) |>
+  rename_all(str_to_lower) |>
+  rename_all(str_replace_all, "\\s+", "_")
+```
+
+```{r Load items of interest, include=FALSE}
+items <-
+  read_csv("inst/extdata/items_of_interest.csv", show_col_types = FALSE) |>
+  rename_all(str_to_lower) |>
+  rename_all(str_replace_all, "\\s+", "_")
+```
+
+```{r Load stipend list, include=FALSE}
+stipends <-
+  read_csv("inst/extdata/stipend.csv", show_col_types = FALSE) |>
+  rename_all(str_to_lower) |>
+  rename_all(str_replace_all, "\\s+", "_")
+```
+
+# Data preprocessing
+
+```{r Write publication samples not yet to be rated, include=FALSE}
+rated_publications <- list.files("inst/extdata/", "publication_rating_form\\.")
+
+rated_publications <-
+  str_remove_all(rated_publications, "publication_rating_form\\.|\\.csv")
+
+publications[
+    str_remove_all(names(publications), "publication\\.") |>
+      setdiff(rated_publications)
+  ] |>
+  imap(~ sample_pub(.x, .y))
+```
+
+```{r Standardize university names, include=FALSE}
+university_rank <-
+  universities |>
+  imap(
+    ~ .x |>
+      mutate(
+        rank_group =
+          str_split_fixed(.y, "_", 2)[1, 2] |>
+          as.numeric()
+        , rank_system =
+          str_split_fixed(.y, "_", 2)[1, 1]
+      ) |>
+      rename_at(2, \(x) "university") |>
+      select(rank_system, rank_group, rank, university)
+  ) |>
+  reduce(rbind) |>
+  arrange(rank_system, rank_group, rank, university) |>
+  mutate(
+    name2 =
+      university |>
+      str_to_lower() |>
+      str_replace_all("\\s+", " ") |>
+      str_replace_all(" st\\.* ", " saint ") |>
+      str_remove_all("^the | \\([:alpha:]+\\s*[:alpha:]*\\)") |>
+      str_remove_all(" twin cities$| west lafayette$") |>
+      str_replace_all("penn state", "pennsylvania state university")
+  ) |>
+  left_join(
+    read_csv(
+        "inst/extdata/Both_top_200_universities.csv", show_col_types = FALSE
+      ) |>
+      rename_all(str_to_lower) |>
+      rename_all(str_replace_all, "\\s+", "_") |>
+      mutate(
+        name2 =
+          name |>
+          str_to_lower() |>
+          str_replace_all("\\s+", " ") |>
+          str_replace_all(" st\\.* ", " saint ") |>
+          str_remove_all("^the | \\([:alpha:]+\\s*[:alpha:]*\\)") |>
+          str_remove_all(" twin cities$| west lafayette$") |>
+          str_replace_all("penn state", "pennsylvania state university")
+      ) |>
+      rename(city = location)
+    , by = join_by(name2)
+    , relationship = "many-to-many"
+  ) |>
+  mutate(university = name) |>
+  select(-name, -name2) |>
+  mutate(university = factor(university, unique(university)))
+```
+
+```{r Combine cities and itemes then preprocessed, include=FALSE}
+city_cost <-
+  c("United States", cities$location) |>
+  lapply(
+    \(x)
+    suppressMessages(suppressWarnings(
+        readxl::read_xlsx(
+          "inst/extdata/numbeo_cost_of_living.xlsx"
+          , sheet = x
+        )
+      )) |>
+      `colnames<-`(c("item", "cost", "range")) |>
+      filter(!is.na(item) & !is.na(cost)) |>
+      mutate(city = x) |>
+      select(city, everything())
+  ) |>
+  reduce(rbind) |>
+  filter(item %in% items$item) |>
+  separate(range, c("lb", "ub"), sep = "-") |>
+  mutate(
+    currency =
+      cost |>
+      sapply(
+        \(x)
+        str_extract_all(x, "\\$+|\\£+")[[1]] |>
+          paste0(collapse = "|")
+      )
+  ) |>
+  mutate_at(c("cost", "lb", "ub"), str_remove_all, "\\s+|\\,+|\\$+|\\£+|\\?") |>
+  mutate_at(c("cost", "lb", "ub"), \(x) ifelse(x == "", NA, x)) |>
+  mutate_at(c("cost", "lb", "ub"), as.numeric) |>
+  mutate_at(c("city"), \(x) factor(x, unique(x)))
+```
+
+```{r Add city to stipend list, include=FALSE}
+stipend_city <-
+  stipends |>
+  select(-source) |>
+  rename(university = name) |>
+  left_join(
+    university_rank |>
+      select(university, city) |>
+      unique()
+    , by = join_by(university)
+  )
+```
+
+## Publication rating
+
+```{r Read publication samples after being rated, include=FALSE}
+publication_rating <-
+  publications |>
+  imap(
+    ~ .x |>
+      inner_join(
+        read_csv(
+            paste0("inst/extdata/publication_rating.", .y, ".csv")
+            , show_col_types = FALSE
+          ) |>
+          select(no, aligned)
+        , by = join_by(no)
+      )
+  ) |>
+  `names<-`(names(publications))
+```
+
+## University lowest ranking
+
+```{r Choose the lowest ranking across any ranking systems, include=FALSE}
+university_lowest_rank <-
+  university_rank |>
+  right_join(
+    group_by(university_rank, university) |>
+      summarize(rank = max(rank))
+    , by = join_by(rank, university)
+  ) |>
+  rename(lowest_rank = rank) |>
+  group_by(lowest_rank, university, city) |>
+  summarize(
+    rank_system =
+      rank_system |>
+      sort() |>
+      paste0(collapse = "|")
+    , .groups = "drop"
+  )
+```
+
+## City annual expense
+
+```{r Estimate annual expense per city, include=FALSE}
+city_annual_expense <-
+  city_cost |>
+  filter(item != "Average Monthly Net Salary (After Tax)") |>
+  mutate(
+    eur_to_usd = 1.09
+    , cost = ifelse(currency == "£", cost * eur_to_usd, cost)
+    , lb = ifelse(currency == "£", lb * eur_to_usd, lb)
+    , ub = ifelse(currency == "£", ub * eur_to_usd, ub)
+    , currency = ifelse(currency == "£", "$", currency)
+  ) |>
+  select(city, item, cost)
+
+city_annual_expense <-
+  city_annual_expense |>
+  left_join(
+    filter(city_annual_expense, city == "United States") |>
+      select(-city) |>
+      rename(cost2 = cost)
+    , by = join_by(item)
+  ) |>
+  group_by(city) |>
+  mutate(
+    item_num = sum(!is.na(cost)) + 1 # Clothing
+    , na_item_name = ifelse(is.na(cost), item, NA)
+    , na_item_name =
+      na_item_name[!is.na(na_item_name)] |>
+      paste0(collapse = "|")
+    , item_num2 = sum(!is.na(cost2)) + 1 # Clothing
+    , na_item_name2 = ifelse(is.na(cost2), item, NA)
+    , na_item_name2 =
+      na_item_name2[!is.na(na_item_name2)] |>
+      paste0(collapse = "|")
+  ) |>
+  ungroup() |>
+  mutate(cost = ifelse(is.na(cost), cost2, cost)) |>
+  select(-cost2) |>
+  mutate(
+    na_item_name = ifelse(na_item_name == "", "(none)", na_item_name)
+    , na_item_name2 = ifelse(na_item_name2 == "", "(none)", na_item_name2)
+  ) |>
+  mutate_at(c("cost"), \(x) ifelse(is.na(x), 0, x)) |>
+  spread(item, cost) |>
+  group_by(city, item_num, na_item_name, item_num2, na_item_name2) |>
+  summarize(
+    annual_expense =
+      # Food
+      365 * (
+        2 * `Meal, Inexpensive Restaurant`
+        + `Meal for 2 People, Mid-range Restaurant, Three-course` / 7
+      )
+      # Transportation
+      + 12 * `Monthly Pass (Regular Price)`
+      # Utilities
+      + 12 * `Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment`
+      # Leisure
+      + 12 * (
+        `Fitness Club, Monthly Fee for 1 Adult`
+        + 2 * `Cinema, International Release, 1 Seat`
+      )
+      # Clothing
+      + 500
+      # Rent
+      + 12 * `Apartment (1 bedroom) in City Centre`
+    , .groups = "drop"
+  ) |>
+  mutate(corr_annual_expense = annual_expense / item_num * max(item_num))
+
+city_annual_expense <-
+  city_annual_expense |>
+  cbind(
+    filter(city_annual_expense, city == "United States") |>
+      select(ref_corr_annual_expense = corr_annual_expense)
+  ) |>
+  filter(city != "United States") |>
+  select(
+    city
+    , annual_expense, corr_annual_expense, ref_corr_annual_expense
+    , everything()
+  )
+```
+
+## City average monthly net salary
+
+```{r Estimate average monthly salary per city, include=FALSE}
+city_avg_mo_salary <-
+  city_cost |>
+  filter(item == "Average Monthly Net Salary (After Tax)") |>
+  mutate(
+    eur_to_usd = 1.09
+    , cost = ifelse(currency == "£", cost * eur_to_usd, cost)
+    , lb = ifelse(currency == "£", lb * eur_to_usd, lb)
+    , ub = ifelse(currency == "£", ub * eur_to_usd, ub)
+    , currency = ifelse(currency == "£", "$", currency)
+  ) |>
+  select(city, item, cost)
+
+city_avg_mo_salary <-
+  city_avg_mo_salary |>
+  left_join(
+    filter(city_avg_mo_salary, city == "United States") |>
+      select(-city) |>
+      rename(cost2 = cost)
+    , by = join_by(item)
+  ) |>
+  mutate(cost = ifelse(is.na(cost), cost2, cost)) |>
+  select(-cost2) |>
+  mutate_at(c("cost"), \(x) ifelse(is.na(x), 0, x)) |>
+  spread(item, cost) |>
+  rename_all(str_to_lower) |>
+  rename_all(str_remove_all, "[:punct:]+") |>
+  rename_all(str_remove_all, " net| after tax") |>
+  rename_all(str_replace_all, "\\s+", "_") |>
+  rename_all(str_replace_all, "average", "avg") |>
+  rename_all(str_replace_all, "monthly", "mo")
+```
+
+# Assess the postdoc criteria
+
+## The criterion 1: publication alignment
+
+```{r Classify publication alignment for the criterion 1, include=FALSE}
+publication_alignment <-
+  data.frame(
+    criterion1_publications =
+      publication_rating |>
+      sapply(\(x) mean(x$aligned))
+  ) |>
+  mutate(
+    criterion1_publications =
+      case_when(
+        round(criterion1_publications, 2) <= 0.33 ~ "1"
+        , round(criterion1_publications, 2) >= 0.34
+          & round(criterion1_publications, 2)<=0.66
+          ~ "2"
+        , round(criterion1_publications, 2) >= 0.67 ~ "3"
+      ) |>
+      as.numeric()
+  ) |>
+  rownames_to_column(var = "university.lab") |>
+  separate(university.lab, c("university", "lab"), sep="\\.") |>
+  select(lab, everything())
+```
+
+## The criterion 2: university ranking
+
+```{r Classify university ranking for the criterion 2, include=FALSE}
+university_ranking <-
+  university_lowest_rank |>
+  mutate(
+    criterion2_ranking =
+      case_when(
+        lowest_rank <= 50 ~ "3"
+        , lowest_rank > 50 & lowest_rank <= 100 ~ "2"
+        , lowest_rank > 100 ~ "1"
+      ) |>
+      as.numeric()
+  ) |>
+  select(university, city, criterion2_ranking)
+```
+
+## The criterion 3: cost of living index
+
+```{r Classify annual expense for the criterion 3, include=FALSE}
+city_cost_living <-
+  city_annual_expense |>
+  mutate(ci = qnorm(0.975) * sd(corr_annual_expense) / sqrt(n())) |>
+  mutate(
+    criterion3_colindex =
+      case_when(
+        corr_annual_expense < (ref_corr_annual_expense - ci)
+        ~"3"
+        , corr_annual_expense >= (ref_corr_annual_expense - ci)
+          & corr_annual_expense <= (ref_corr_annual_expense + ci)
+          ~"2"
+        , corr_annual_expense > (ref_corr_annual_expense + ci)
+          ~"1"
+      ) |>
+      as.numeric()
+  ) |>
+  select(city, criterion3_colindex)
+
+city_cost_living <-
+  city_cost_living |>
+  rbind(
+    filter(city_cost_living, city %in% c("Urbana", "Champaign")) |>
+      mutate(city = "Urbana-Champaign") |>
+      group_by(city) |>
+      summarize(criterion3_colindex = round(mean(criterion3_colindex)))
+  ) |>
+  filter(!city %in% c("Urbana", "Champaign"))
+```
+
+## The criterion 4: postdoc stipend
+
+```{r Classify stipend for the criterion 4, include=FALSE}
+postdoc_stipend <-
+  stipend_city |>
+  left_join(
+    city_avg_mo_salary |>
+      cbind(
+        filter(city_avg_mo_salary, city != "United States") |>
+          summarize(ci_mo_salary = qnorm(0.975) * sd(avg_mo_salary) / sqrt(n()))
+      ) |>
+      mutate(
+        lb_mo_salary = avg_mo_salary - ci_mo_salary
+        , ub_mo_salary = avg_mo_salary + ci_mo_salary
+      ) |>
+      select(-ci_mo_salary)
+    , by = join_by(city)
+  ) |>
+  mutate(
+    criterion4_stipend =
+      case_when(
+        stipend < lb_mo_salary ~ "1"
+        , stipend >= lb_mo_salary & stipend <= ub_mo_salary ~ "2"
+        , stipend > ub_mo_salary ~ "3"
+      ) |>
+      as.numeric()
+  ) |>
+  select(lab, university, criterion4_stipend)
+```
+
+# Pre-selection
+
+```{r table-1, echo=FALSE}
+university_ranking |>
+  left_join(city_cost_living, by = join_by(city)) |>
+  gather(criterion, score, -university, -city) |>
+  group_by(university, city) |>
+  summarize(
+    criteria = paste0(criterion, collapse = " + ")
+    , calc = paste0(score, collapse = " + ")
+    , n = n()
+    , total = sum(score, na.rm = TRUE)
+    , avg = sum(score, na.rm = TRUE) / n()
+    , .groups = "drop"
+  ) |>
+  arrange(desc(avg), desc(n)) |>
+  kable(
+    caption = "Table 1. Highest to lowest average score of university & city."
+    , format = kable_format
+  ) |>
+  kable_classic() |>
+  column_spec(1:7, extra_css = "vertical-align:top;")
+```
+
+```{r Compute initial score, include=FALSE}
+initial_score <-
+  publication_alignment |>
+  left_join(university_ranking, by = join_by(university)) |>
+  left_join(city_cost_living, by = join_by(city)) |>
+  left_join(postdoc_stipend, by = join_by(lab, university))
+
+initial_score <-
+  initial_score |>
+  left_join(
+    gather(initial_score, criterion, score, -lab, -university, -city) |>
+      group_by(lab, university, city) |>
+      summarize(initial_score = sum(score), .groups="drop")
+    , by = join_by(lab, university, city)
+  ) |>
+  select(lab, university, city, initial_score, everything())
+```
+
+```{r Write initial score to be scored intuitively if borderline, include=FALSE}
+defined_intuitive_score <- list.files("inst/extdata/", "intuitive_score\\.")
+
+defined_intuitive_score <-
+  str_remove_all(defined_intuitive_score, "intuitive_score\\.|\\.csv")
+
+written_initial_score <-
+  initial_score |>
+  mutate(
+    intuitive_score =
+      ifelse(initial_score >= 7 & initial_score <= 9, "", 0)
+  ) |>
+  filter(!paste0(university, ".", lab) %in% defined_intuitive_score)
+
+if(nrow(written_initial_score) > 0) {
+  seq(nrow(written_initial_score)) |>
+    lapply(
+      \(x)
+      initial_score |>
+        slice(x) |>
+        write_csv(
+          paste0(
+            "inst/extdata/initial_score."
+            , slice(initial_score, x)$university
+            , "."
+            , slice(initial_score, x)$lab
+            , ".csv"
+          )
+        )
+    )
+}
+```
+
+# Selection
+
+```{r Selection results, include=FALSE}
+selection_results <- list.files("inst/extdata/", full.names = TRUE)
+
+selection_results <-
+  selection_results[str_detect(selection_results, "//intuitive_score\\.")] |>
+  lapply(read_csv, show_col_types = FALSE) |>
+  reduce(rbind) |>
+  mutate(
+    final_score = initial_score + intuitive_score
+    , recommendation =
+      case_when(
+        initial_score < 7
+        ~ "May not be the best fit"
+        , initial_score >= 7 & initial_score <= 9 & final_score > 10
+          ~ "Consider applying after intuitive score"
+        , initial_score >= 7 & initial_score <= 9 & final_score <= 10
+          ~ "Consider not applying after intuitive score"
+        , initial_score >= 10
+          ~ "Strongly consider applying"
+      )
+  ) |>
+  select(lab, university, city, initial_score, final_score, recommendation) |>
+  arrange(desc(final_score), desc(initial_score), university, lab)
+```
+
+```{r Read previously checked selection results, include=FALSE}
+checked_selection_results <-
+  read_csv(
+    "inst/extdata/checked_selection_results.csv", show_col_types = FALSE
+  )
+```
+
+```{r Write unchecked selection results, include=FALSE}
+selection_results |>
+  filter(
+    !paste0(lab, university, city, initial_score, final_score, recommendation)
+    %in% c(
+      checked_selection_results |>
+        unite(
+          content
+          , lab, university, city, initial_score, final_score, recommendation
+          , sep = ""
+        ) |>
+        pull(content)
+    ) 
+  ) |>
+  write_csv("inst/extdata/unchecked_selection_results.csv")
+```
+
+```{r table-2, echo=FALSE}
+checked_selection_results |>
+  mutate_all(\(x) ifelse(is.na(x), "", x)) |>
+  kable(
+    caption = "Table 2. Selection results and decision."
+    , format = kable_format
+  ) |>
+  kable_classic() |>
+  column_spec(1:10, extra_css = "vertical-align:top;")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

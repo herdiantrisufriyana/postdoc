@@ -65,6 +65,9 @@ RUN R -e "BiocManager::install('dslabs', ask=FALSE, update=FALSE, force=TRUE)"
 # Set the working directory to ~/project on R session start
 RUN echo 'setwd("~/project")' >> /home/rstudio/.Rprofile
 
+# Install additional Python libraries and R packages, chronologically
+RUN R -e "BiocManager::install('pbapply', ask=FALSE, update=FALSE, force=TRUE)"
+
 # Reset DEBIAN_FRONTEND variable
 ENV DEBIAN_FRONTEND=
 

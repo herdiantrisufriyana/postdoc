@@ -54,6 +54,10 @@ rsconnect/
 # Ignore everything in archive
 archive/*
 
+# Ignore non-PDF docs
+doc/
+!doc/*.pdf
+
 # Ignore local file/folders
 *.Rproj
 .sh_history

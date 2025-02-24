@@ -1,4 +1,6 @@
-lab,university,city,initial_score,final_score,recommendation,apply,unapply_reason,response,interview,accepted
+lab,university,city,initial_score,final_score,recommendation,apply,otherwise_reason,response,interview,accepted
+Konrad Kording,University of Pennsylvania,Philadelphia,9,12,Consider applying after intuitive score,yes,,yes,no,no
+Richa Saxena,Harvard University,Cambridge,9,12,Consider applying after intuitive score,,,,,
 Nima Aghaeepour,Stanford University,Stanford,9,12,Consider applying after intuitive score,yes,N/A,yes,yes,
 Arjun (Raj) Manraj,Harvard University,Cambridge,11,11,Strongly consider applying,,,,,
 Chirag Patel,Harvard University,Cambridge,11,11,Strongly consider applying,,,,,
@@ -7,7 +9,7 @@ Griffin Weber,Harvard University,Cambridge,10,10,Strongly consider applying,,,,,
 Kun-Hsing Yu,Harvard University,Cambridge,10,10,Strongly consider applying,no,once rejected,,,
 Marinka Zitnik,Harvard University,Cambridge,10,10,Strongly consider applying,no,once no response,,,
 Pranav Rajpurkar,Harvard University,Cambridge,10,10,Strongly consider applying,,,,,
-Vesela Kovacheva,Harvard University,Cambridge,10,10,Strongly consider applying,yes,,,,
+Vesela Kovacheva,Harvard University,Cambridge,10,10,Strongly consider applying,yes,N/A,yes,no,no
 Heng Li,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
 Isaac Kohane,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
 Luke O'Connor,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
@@ -17,4 +19,6 @@ Paul Avillach,Harvard University,Cambridge,9,10,Consider not applying after intu
 Peter Park,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
 Shamil Sunyaev,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
 Soumya Raychaudhuri,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
+Tal Korem,Columbia University,New York City,7,9,Consider not applying after intuitive score,yes,pregnancy microbiome data access,,,
+Kathryn Gray,University of Washington,Seattle,6,9,May not be the best fit,yes,may be in Saxena lab,,,
 Ryan Urbanowicz,University of California Los Angeles (UCLA),Los Angeles,6,6,May not be the best fit,,,,,

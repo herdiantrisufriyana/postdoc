@@ -1,0 +1,31 @@
+no,title,cited_by,year,aligned
+30,"The hygiene hypothesis, the COVID pandemic, and consequences for the human microbiome. BB Finlay, KR Amato, M Azad, MJ Blaser, TCG Bosch, H Chu, .... Proceedings of the National Academy of Sciences 118 (6), e2010217118",191,2021,0
+20,"Preterm birth is associated with xenobiotics and predicted by the vaginal metabolome. WF Kindschuh, F Baldini, MC Liu, J Liao, Y Meydan, HH Lee, A Heinken, .... Nature Microbiology 8, 246-259",44,2023,1
+17,"Microdiversity of the vaginal microbiome is associated with preterm birth. J Liao, L Shenhav, JA Urban, M Serrano, B Zhu, GA Buck, T Korem. Nature communications 14, 4997",35,2023,1
+21,"Predicting blood metabolites. E Segal, BAR Noam, T Korem. US Patent App. 17/427,223",5,2022,1
+31,"Accurate and robust inference of microbial growth dynamics from metagenomic sequencing. TA Joseph, P Chlenski, T Korem, I Pe'er. bioRxiv",1,2021,0
+15,"Early prediction of preeclampsia using the first trimester vaginal microbiome. WF Kindschuh, GI Austin, Y Meydan, H Park, JA Urban, E Watters, .... bioRxiv, 2024.12. 01.626267",,2024,1
+4,"Planning and Analyzing a Low-Biomass Microbiome Study: A Data Analysis Perspective. GI Austin, T Korem. The Journal of Infectious Diseases, jiae378",1,2024,0
+18,"pymgpipe: microbiome metabolic modeling in Python. Y Meydan, F Baldini, T Korem. Journal of open source software 8 (88), 5545",,2023,1
+23,"Accurate and robust inference of microbial growth dynamics from metagenomic sequencing reveals personalized growth rates. TA Joseph, P Chlenski, A Litman, T Korem, I Pe'er. Genome Research, gr. 275533.121",37,2022,0
+16,"Contamination source modeling with SCRuB improves cancer phenotype prediction from microbiome data. GI Austin, H Park, Y Meydan, D Seeram, T Sezin, YC Lou, BA Firek, .... Nature biotechnology 41 (12), 1820-1828",32,2023,1
+11,"The Salivary Microbiome and Predicted Metabolite Production Are Associated with Barrett's Esophagus and High-Grade Dysplasia or Adenocarcinoma. QS Solfisburg, F Baldini, B Baldwin-Hunter, GI Austin, HH Lee, H Park, .... Cancer Epidemiology, Biomarkers & Prevention 33 (3), 371-380",6,2024,1
+28,"Deciphering metabolism, one microbe at a time. WF Kindschuh, T Korem. Nature 595 (7867), 355-357",,2021,1
+5,"Distributional bias compromises leave-one-out cross-validation. GI Austin, I Pe’er, T Korem. ArXiv, arXiv: 2406.01652 v1",1,2024,0
+34,"Longitudinal multi-omics reveals subset-specific mechanisms underlying irritable bowel syndrome. RAT Mars, Y Yang, T Ward, M Houtti, S Priya, HR Lekatz, X Tang, Z Sun, .... Cell 182 (6), 1460-1473",401,2020,1
+29,"Su173 SALIVARY MICROBIOME COMPOSITION IS ASSOCIATED WITH ADVANCED NEOPLASIA IN BARRETT'S ESOPHAGUS INDEPENDENT OF TOOTH LOSS. QS Solfisburg, BL Baldwin-Hunter, CJ Lightdale, T Korem, JA Abrams. Gastroenterology 160 (6), S-635-S-636",1,2021,0
+26,"Embracing metagenomic complexity with a genome-free approach. I Coleman, T Korem. Msystems 6 (4), 10.1128/msystems. 00816-21",14,2021,0
+12,"Compositional transformations can reasonably introduce phenotype-associated values into sparse features. GI Austin, T Korem. bioRxiv, 2024.02. 19.581060",1,2024,0
+35,"The cancer microbiome: distinguishing direct and indirect effects requires a systemic view. JB Xavier, VB Young, J Skufca, F Ginty, T Testerman, AT Pearson, .... Trends in cancer 6 (3), 192-204",210,2020,0
+1,"Domain adaptation in small-scale and heterogeneous biological datasets. S Orouji, MC Liu, T Korem, MAK Peters. Science Advances 10 (51), eadp6040",3,2024,1
+32,"Relationship of the esophageal microbiome and tissue gene expression and links to the oral microbiome: a randomized clinical trial. MK Annavajhala, M May, G Compres, DE Freedberg, R Graham, S Stump, .... Clinical and Translational Gastroenterology 11 (12), e00235",18,2020,0
+22,"The gut microbiome of adults with type 1 diabetes and its association with the host glycemic control. S Shilo, A Godneva, M Rachmiel, T Korem, Y Bussi, D Kolobkov, T Karady, .... Diabetes Care 45 (3), 555-563",40,2022,0
+36,"Structural variation in the gut microbiome associates with host health. D Zeevi, T Korem, A Godneva, N Bar, A Kurilshikov, M Lotan-Pompan, .... Nature 568 (7750), 43-48",325,2019,0
+8,"Metagenomic coverage bias at transcription start sites is correlated with gene expression. G Qian, I Coleman, T Korem, JWK Ho. bioRxiv, 2024.05. 09.593333",,2024,0
+13,"Processing-bias correction with DEBIAS-M improves cross-study generalization of microbiome-based prediction models. GI Austin, A Brown Kav, H Park, J Biermann, AC Uhlemann, T Korem. bioRxiv, 2024.02.09.579716",3,2024,1
+2,"Persistent Short Sleep Duration From Pregnancy to 2 to 7 Years After Delivery and Metabolic Health. M Kim, LE Wiener, J Gilbert, RB McNeil, KJ Reid, WA Grobman, F Facco, .... JAMA network open 7 (12), e2452204-e2452204",,2024,0
+6,"Mo1907 BACTERIAL DENSITY IS INCREASED IN THE STROMA OF BARRETT'S ESOPHAGUS-ASSOCIATED NEOPLASIA. L Houle, Y Sun, T Swayne, DE Freedberg, T Korem, AIP Vasco, M Quante, .... Gastroenterology 166 (5), S-1168",,2024,0
+14,"Microbiome preterm birth DREAM challenge: Crowdsourcing machine learning approaches to advance preterm birth research. JL Golob, TT Oskotsky, AS Tang, A Roldan, V Chung, CWY Ha, RJ Wong, .... Cell Reports Medicine 5 (1)",25,2024,1
+7,"Su1265 THE SALIVARY MICROBIOME AS A NONINVASIVE SCREENING TOOL FOR BARRETT'S ESOPHAGUS. JM Luevano, JH Rubenstein, RC Fitzgerald, AC Uhlemann, H Park, .... Gastroenterology 166 (5), S-715-S-716",,2024,0
+10,"Single analyte profiling of the mutational, immune and microbiome landscape in african american colon cancer patients. C Gurjao, E Chan, MJ Lee, S Hangai, R Rabadan, T Korem, H Hibshoosh, .... Cancer Research 84 (6_Supplement), 994-994",,2024,0
+25,"Prediction of Personal Glycemic Responses to Food for Individuals With Type 1 Diabetes Through Integration of Clinical and Microbial Data. S Shilo, A Godneva, M Rachmiel, T Korem, D Kolobkov, T Karady, N Bar, .... Diabetes care, dc211048",28,2021,1

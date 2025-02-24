@@ -547,19 +547,28 @@ if(nrow(written_initial_score) > 0) {
   seq(nrow(written_initial_score)) |>
     lapply(
       \(x)
-      initial_score |>
+      written_initial_score |>
         slice(x) |>
         write_csv(
           paste0(
             "inst/extdata/initial_score."
-            , slice(initial_score, x)$university
+            , slice(written_initial_score, x)$university
             , "."
-            , slice(initial_score, x)$lab
+            , slice(written_initial_score, x)$lab
             , ".csv"
           )
         )
     )
 }
+```
+
+```{r table-2, echo=FALSE}
+written_initial_score |>
+  kable(
+    caption = "Table 2. Last assessment."
+    , format = kable_format
+  ) |>
+  kable_classic()
 ```
 
 # Selection
@@ -613,15 +622,15 @@ selection_results |>
   write_csv("inst/extdata/unchecked_selection_results.csv")
 ```
 
-```{r table-2, echo=FALSE}
+```{r table-3, echo=FALSE}
 checked_selection_results |>
   mutate_all(\(x) ifelse(is.na(x), "", x)) |>
   kable(
-    caption = "Table 2. Selection results and decision."
+    caption = "Table 3. Selection results and decision."
     , format = kable_format
   ) |>
   kable_classic() |>
-  column_spec(1:10, extra_css = "vertical-align:top;")
+  column_spec(1:11, extra_css = "vertical-align:top;")
 ```
 
 

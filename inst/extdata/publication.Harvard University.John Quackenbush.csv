@@ -1,0 +1,305 @@
+﻿TITLE,CITED BY,YEAR
+Pruning neural network models for gene regulatory dynamics using data and domain knowledge,,2025
+"I Hossain, J Fischer, R Burkholz, J Quackenbush",,
+"Advances in Neural Information Processing Systems 37, 117543-117579",,
+Identifying Sex Differences in Lung Adenocarcinoma Using Multi-Omics Integrative Protein Signaling Networks,,2025
+"C Chen, E Saha, J Fischer, M Ben Guebila, V Fanfani, K Shutta, M Padi, ...",,
+"bioRxiv, 2025.02. 03.636354",,
+Sex-biased regulation of extracellular matrix genes in chronic obstructive pulmonary disease,1,2025
+"CM Lopes-Ramos, KH Shutta, MH Ryu, Y Huang, E Saha, J Ziniti, ...",,
+"American Journal of Respiratory Cell and Molecular Biology 72 (1), 72-81",,
+Reproducible processing of TCGA regulatory networks,,2024
+"V Fanfani, KH Shutta, P Mandros, J Fischer, E Saha, S Micheletti, C Chen, ...",,
+bioRxiv,,
+Selective loss of Y chromosomes in lung adenocarcinoma modulates the tumor immune environment through cancer/testis antigens,1,2024
+"J Fischer, KH Shutta, C Chen, V Fanfani, E Saha, P Mandros, MB Guebila, ...",,
+bioRxiv,,
+The Importance of Regulatory Network Structure for Complex Trait Heritability and Evolution,,2024
+"K Stone, J Platig, J Quackenbush, M Fagny",,
+bioRxiv,,
+Spatial Cellular Networks from omics data with SpaCeNet,2,2024
+"S Schrod, N Lück, R Lohmayer, S Solbrig, D Völkl, T Wipfler, KH Shutta, ...",,
+"Genome Research 34 (9), 1371-1383",,
+Bayesian inference of sample-specific coexpression networks,1,2024
+"E Saha, V Fanfani, P Mandros, MB Guebila, J Fischer, KH Shutta, ...",,
+"Genome Research 34 (9), 1397-1410",,
+Higher-order correction of persistent batch effects in correlation networks,2,2024
+"S Micheletti, D Schlauch, J Quackenbush, M Ben Guebila",,
+"Bioinformatics 40 (9), btae531",,
+Gene regulatory networks reveal sex difference in lung adenocarcinoma,11,2024
+"E Saha, M Ben Guebila, V Fanfani, J Fischer, KH Shutta, P Mandros, ...",,
+"Biology of sex Differences 15 (1), 62",,
+Gene regulatory network structure help us understand how complex phenotypes adapt,,2024
+"K Stone, J Platig, F Austerlitz, J Quackenbush, M Fagny",,
+Evolution 2024,,
+"Aging-associated Alterations in the Gene Regulatory Network Landscape Associate with Risk, Prognosis and Response to Therapy in Lung Adenocarcinoma",,2024
+"E Saha, MB Guebila, V Fanfani, KH Shutta, DL DeMeo, J Quackenbush, ...",,
+bioRxiv,,
+Gene regulatory network structure help us understand how polygenic phenotypes adapt,,2024
+"K Stone, J Platig, F Austerlitz, J Quackenbush, M Fagny",,
+Evolution 2024-Virtual,,
+node2vec2rank: Large Scale and Stable Graph Differential Analysis via Multi-Layer Node Embeddings and Ranking,1,2024
+"P Mandros, I Gallagher, V Fanfani, C Chen, J Fischer, A Ismail, L Hsu, ...",,
+bioRxiv,,
+Biologically informed NeuralODEs for genome-wide regulatory dynamics,6,2024
+"I Hossain, V Fanfani, J Fischer, J Quackenbush, R Burkholz",,
+"Genome Biology 25 (1), 127",,
+BONOBO: Bayesian Optimized Sample-Specific Networks Obtained by Omics Data,,2024
+"E Saha, V Fanfani, P Mandros, M Ben-Guebila, J Fischer, KH Shutta, ...",,
+"International Conference on Research in Computational Molecular Biology, 328-331",,
+Spacenet: spatial cellular networks from omics data,4,2024
+"S Schrod, N Lück, R Lohmayer, S Solbrig, T Wipfler, KH Shutta, ...",,
+"International Conference on Research in Computational Molecular Biology, 344-347",,
+Unveiling sex differences in lung adenocarcinoma through multi-omics integrative protein signaling networks,1,2024
+"C Chen, E Saha, DL DeMeo, J Quackenbush, CM Lopes-Ramos",,
+"Cancer Research 84 (6_Supplement), 3490-3490",,
+Not all tickets are equal and we know it: Guiding pruning with domain-specific knowledge,1,2024
+"I Hossain, J Fischer, R Burkholz, J Quackenbush",,
+"arXiv e-prints, arXiv: 2403.04805",,
+Complex Traits Heritability is Highly Clustered in the eQTL Bipartite Network,,2024
+"K Stone, J Platig, J Quackenbush, M Fagny",,
+Check for updates BONOBO: Bayesian Optimized Sample-Specific Networks Obtained by Omics Data,,2024
+"E Saha¹, V Fanfani¹, P Mandros¹, M Ben-Guebila¹, J Fischer¹, KH Shutta, ...",,
+Research in Computational Molecular Biology: 28th Annual International …,,
+Bayesian Optimized sample-specific Networks Obtained By Omics data (BONOBO),2,2023
+"E Saha, V Fanfani, P Mandros, M Ben-Guebila, J Fischer, K Hoff-Shutta, ...",,
+bioRxiv,,
+"Supervised Risk Predictor of Breast Cancer Based on Intrinsic Subtypes (Reprinted from vol 27, pg 1160, 2009)",2,2023
+"JS Parker, M Mullins, MCU Cheang, S Leung, D Voduc, T Vickery, ...",,
+"JOURNAL OF CLINICAL ONCOLOGY 41 (26), 4192-4199",,
+Supervised risk predictor of breast cancer based on intrinsic subtypes,17,2023
+"JS Parker, M Mullins, MCU Cheang, S Leung, D Voduc, T Vickery, ...",,
+"Journal of Clinical Oncology 41 (26), 4192-4199",,
+Using Gene Regulatory Networks to Understand Sex Differences in Lung Cancer Gene Regulation,,2023
+"CM Lopes-Ramos, E Saha, J Quackenbush, DL Demeo",,
+"D98. UPDATE ON THE"" OMICS"" OF LUNG CANCER: A TRANSLATIONAL SESSION, A6607-A6607",,
+Network Medicine Approaches Reveal Sex-biased Regulation of Extracellular Matrix Pathway in COPD,,2023
+"CM Lopes-Ramos, R Chase, BD Hobbs, JH Yun, Z Xu, P Castaldi, ...",,
+"B107. COPD: FROM OMICS TO TREATMENT, A4407-A4407",,
+Divergent Lung Tissue Methylation Signatures of COPD and Pulmonary Fibrosis,,2023
+"KH Shutta, Y Huang, S Li, BD Hobbs, J Yun, AMK Choi, EK Silverman, ...",,
+"D108. CELLS, SIGNALING, AND MEDIATORS IN LUNG REMODELING AND FIBROSIS, A6783 …",,
+"Genome Projects: from Microbes to Man, from Sequence to Function",1,2023
+"J Quackenbush, MD Adams, CM Fraser, JC Venter",,
+"Genomics: commercial opportunities from a scientific revolution, 15-28",,
+The Network Zoo: a multilingual package for the inference and analysis of gene regulatory networks,,2023
+"G Ben, T Wang, CM Lopes-Ramos, V Fanfani, D Weighill, R Burkholz, ...",,
+BioMed Central Ltd,,
+The Network Zoo: a multilingual package for the inference and analysis of gene regulatory networks,25,2023
+"M Ben Guebila, T Wang, CM Lopes-Ramos, V Fanfani, D Weighill, ...",,
+"Genome Biology 24 (1), 45",,
+DRAGON: determining regulatory associations using graphical models on multi-omic networks,15,2023
+"KH Shutta, D Weighill, R Burkholz, MB Guebila, DL DeMeo, HU Zacharias, ...",,
+"Nucleic Acids Research 51 (3), e15-e15",,
+Counting Genes: A Human Genome Conundrum,,2022
+J Quackenbush,,
+"GEN Biotechnology 1 (5), 428-429",,
+Proceedings of the fifth international Molecular Pathological Epidemiology (MPE) meeting,,2022
+"S Yao, PT Campbell, T Ugai, G Gierach, M Abubakar, V Adalsteinsson, ...",,
+"Cancer Causes & Control 33 (8), 1107-1120",,
+Blood gene expression risk profiles and interstitial lung abnormalities: COPDGene and ECLIPSE cohort studies,7,2022
+"M Moll, BD Hobbs, A Menon, AJ Ghosh, RK Putman, T Hino, A Hata, ...",,
+"Respiratory Research 23 (1), 157",,
+The network zoo: a multilingual package for the inference and analysis of biological networks,1,2022
+"MB Guebila, T Wang, CM Lopes-Ramos, V Fanfani, D Weighill, ...",,
+"bioRxiv, 2022.05. 30.494077",,
+Connectivity in eQTL networks dictates reproducibility and genomic properties,7,2022
+"SM Gaynor, M Fagny, X Lin, J Platig, J Quackenbush",,
+Cell Reports Methods 2 (5),,
+Gene Expression Risk Profiles and Interstitial Lung Abnormalities,,2022
+"M Moll, BD Hobbs, AA Menon, AJ Ghosh, RK Putman, T Hino, A Hata, ...",,
+D91. OMICS DISCOVERIES IN ALLERGIC AND NON-ALLERGIC INFLAMMATION AND LUNG …,,
+"An online notebook resource for reproducible inference, analysis and publication of gene regulatory networks",13,2022
+"M Ben Guebila, D Weighill, CM Lopes-Ramos, R Burkholz, RT Pop, ...",,
+"Nature methods 19 (5), 511-513",,
+Looking back at the first twenty years of genomics,,2022
+J Quackenbush,,
+"Quantitative Biology 10 (1), 6-16",,
+"Discovery of widespread transcription initiation at microsatellites predictable by sequence-based deep neural network (vol 12, 3279, 2021)",,2022
+"M Grapotte, M Saraswat, C Bessiere, C Menichelli, JA Ramilowski, ...",,
+NATURE COMMUNICATIONS 13 (1),,
+Author Correction: Discovery of widespread transcription initiation at microsatellites predictable by sequence-based deep neural network,,2022
+"M Grapotte, M Saraswat, C Bessière, C Menichelli, JA Ramilowski, ...",,
+"Nature communications 13 (1), 1200",,
+gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit,6,2022
+"MB Guebila, DC Morgan, K Glass, ML Kuijjer, DL DeMeo, J Quackenbush",,
+"NAR Genomics and Bioinformatics 4 (1), lqac002",,
+Predicting genotype-specific gene regulatory networks,18,2022
+"D Weighill, MB Guebila, K Glass, J Quackenbush, J Platig",,
+"Genome Research 32 (3), 524-533",,
+GRAND: a database of gene regulatory network models across human conditions,73,2022
+"M Ben Guebila, CM Lopes-Ramos, D Weighill, AR Sonawane, R Burkholz, ...",,
+"Nucleic Acids Research 50 (D1), D610-D621",,
+Constructing gene regulatory networks using epigenetic data,35,2021
+"AR Sonawane, DL DeMeo, J Quackenbush, K Glass",,
+"npj Systems Biology and Applications 7 (1), 45",,
+Scaling up continuous-time Markov chains helps resolve underspecification,12,2021
+"A Gotovos, R Burkholz, J Quackenbush, S Jegelka",,
+"Advances in Neural Information Processing Systems 34, 14580-14592",,
+Regulatory network of PD1 signaling is associated with prognosis in glioblastoma multiforme,22,2021
+"CM Lopes-Ramos, T Belova, TH Brunner, M Ben Guebila, D Osorio, ...",,
+"Cancer research 81 (21), 5401-5412",,
+Environmental influences measured by epigenetic clock and vulnerability components at birth impact clinical ASD heterogeneity,6,2021
+"V Neri de Souza Reis, AC Tahira, V Daguano Gastaldi, P Mari, ...",,
+"Genes 12 (9), 1433",,
+Using graph convolutional neural networks to learn a representation for glycans,37,2021
+"R Burkholz, J Quackenbush, D Bojar",,
+Cell Reports 35 (11),,
+Discovery of widespread transcription initiation at microsatellites predictable by sequence-based deep neural network,21,2021
+"M Grapotte, M Saraswat, C Bessière, C Menichelli, JA Ramilowski, ...",,
+"Nature communications 12 (1), 3297",,
+Cascade size distributions: Why they matter and how to compute them efficiently,5,2021
+"R Burkholz, J Quackenbush",,
+"Proceedings of the AAAI Conference on Artificial Intelligence 35 (8), 6840-6849",,
+Gene regulatory network inference as relaxed graph matching,25,2021
+"D Weighill, MB Guebila, C Lopes-Ramos, K Glass, J Quackenbush, ...",,
+"Proceedings of the AAAI Conference on Artificial Intelligence 35 (11), 10263 …",,
+Gene targeting in disease networks,23,2021
+"D Weighill, M Ben Guebila, K Glass, J Platig, JJ Yeh, J Quackenbush",,
+"Frontiers in Genetics 12, 649942",,
+DRAGON: determining regulatory associations using graphical models on multi-omic networks,9,2021
+"D Weighill, R Burkholz, M Ben Guebila, HU Zacharias, J Quackenbush, ...",,
+"arXiv e-prints, arXiv: 2104.01690",,
+BRCA1 and RNAi factors promote repair mediated by small RNAs and PALB2–RAD52,42,2021
+"E Hatchi, L Goehring, S Landini, K Skourti-Stathaki, DK DeConti, ...",,
+"Nature 591 (7851), 665-670",,
+Regulation of PD1 signaling is associated with prognosis in glioblastoma multiforme,3,2021
+"C Lopes-Ramos, T Belova, T Brunner, J Quackenbush, ML Kuijjer",,
+"bioRxiv, 2021.02. 11.430786",,
+BRCA1 and RNAi factors promote small RNA-and PalB2/Rad52-mediated repair,,2021
+"E Hatchi, L Goehring, S Landini, K Skourti-Stathaki, DK DeConti, ...",,
+"Nature 591 (7851), 665",,
+Multi-omic regulatory networks capture downstream effects of kinase inhibition in Mycobacterium tuberculosis,6,2021
+"AT Young, X Carette, M Helmel, H Steen, RN Husson, J Quackenbush, ...",,
+"NPJ Systems Biology and Applications 7 (1), 8",,
+Extreme reverse transcription PCR,1,2021
+"CT Wittwer, JF Quackenbush, JA Houskeeper",,
+"US Patent 10,900,074",,
+Transcriptomics data availability and reusability in the transition from microarray to next-generation sequencing,12,2021
+"G Rustici, E Williams, M Barzine, A Brazma, R Bumgarner, M Chierici, ...",,
+"bioRxiv, 2020.12. 31.425022",,
+Neuro-Oncology Advances,,2021
+"JM Snyder, RY Huang, H Bai, VR Rao, S Cornes, JS Barnholtz-Sloan, ...",,
+Analysis of morphological characteristics of IDH-mutant/wildtype brain tumors using whole-lesion phenotype analysis,3,2021
+"JM Snyder, RY Huang, H Bai, VR Rao, S Cornes, JS Barnholtz-Sloan, ...",,
+"Neuro-Oncology Advances 3 (1), vdab088",,
+"Racial and age-related differences in breast cancer: Comprehensive comparison of epidemiological, clinicopathological features and genomic signatures",,2020
+"D Colak, O Al-Harazi, H Ghebeh, M Aleid, H Khalil, E Aljarba, N Bawyan, ...",,
+"EUROPEAN JOURNAL OF HUMAN GENETICS 28 (SUPPL 1), 706-706",,
+Genome-wide sex and gender differences in cancer,132,2020
+"CM Lopes-Ramos, J Quackenbush, DL DeMeo",,
+"Frontiers in oncology 10, 597788",,
+Histone deacetylase 6–mediated selective autophagy regulates COPD-associated cilia dysfunction,10,2020
+"HC Lam, SM Cloonan, AR Bhashyam, JA Haspel, A Singh, ...",,
+"The Journal of Clinical Investigation 130 (11), 6189-6189",,
+Molecular networks in Network Medicine: Development and applications,190,2020
+"EK Silverman, HHHW Schmidt, E Anastasiadou, L Altucci, M Angelini, ...",,
+"Wiley Interdisciplinary Reviews: Systems Biology and Medicine 12 (6), e1489",,
+Transparency and reproducibility in artificial intelligence,423,2020
+"B Haibe-Kains, GA Adam, A Hosny, F Khodakarami, ...",,
+"Nature 586 (7829), E14-E16",,
+Paenibacillus infection with frequent viral coinfection contributes to postinfectious hydrocephalus in Ugandan infants,45,2020
+"JN Paulson, BL Williams, C Hehnly, N Mishra, SA Sinnar, L Zhang, ...",,
+"Science translational medicine 12 (563), eaba0565",,
+The bacterial and viral complexity of postinfectious hydrocephalus in Uganda,10,2020
+"JN Paulson, BL Williams, C Hehnly, N Mishra, SA Sinnar, L Zhang, ...",,
+"Science translational medicine 12 (563), eaba0565",,
+PUMA: PANDA using microRNA associations,28,2020
+"ML Kuijjer, M Fagny, A Marin, J Quackenbush, K Glass",,
+"Bioinformatics 36 (18), 4765-4773",,
+A novel deep learning model by stacking conditional restricted boltzmann machine and deep neural network,9,2020
+"T Kang, P Chen, J Quackenbush, W Ding",,
+Proceedings of the 26th ACM SIGKDD international conference on knowledge …,,
+Catalysis clustering with gan by incorporating domain knowledge,13,2020
+"O Andreeva, W Li, W Ding, M Kuijjer, J Quackenbush, P Chen",,
+Proceedings of the 26th ACM SIGKDD international conference on knowledge …,,
+Regulatory networks of liver carcinoma reveal sex specific patterns of gene regulation,3,2020
+"CM Lopes-Ramos, M Kuijjer, K Glass, D DeMeo, J Quackenbush",,
+"Cancer Research 80 (16_Supplement), 6569-6569",,
+Initial validation of a machine learning-derived prognostic test (KidneyIntelX) integrating biomarkers and electronic health record data to predict longitudinal kidney outcomes,24,2020
+"K Chauhan, GN Nadkarni, F Fleming, J McCullough, CJ He, ...",,
+"Kidney360 1 (8), 731-739",,
+Reverse transcriptase kinetics for one-step RT-PCR,10,2020
+"NA Rejali, AM Zuiter, JF Quackenbush, CT Wittwer",,
+"Analytical Biochemistry 601, 113768",,
+Sex differences in gene expression and regulatory networks across 29 human tissues,318,2020
+"CM Lopes-Ramos, CY Chen, ML Kuijjer, JN Paulson, AR Sonawane, ...",,
+Cell reports 31 (12),,
+Gaussian and Mixed Graphical Models as (multi-) omics data analysis tools,78,2020
+"M Altenbuchinger, A Weihs, J Quackenbush, HJ Grabe, HU Zacharias",,
+"Biochimica et Biophysica Acta (BBA)-Gene Regulatory Mechanisms 1863 (6), 194418",,
+Smoking related co-methylation networks reveal checkpoint-related signatures of IPF and COPD in leukocytes and lung tissue,1,2020
+"J Morrow, IO Rosas, I Noth, FJ Martinez, K Anstrom, J Quackenbush, ...",,
+"D107. ENVIRONMENTAL EXPOSURES AND COPD, A7831-A7831",,
+Aging and Apoptosis Genes Lose Outgoing Regulatory Network Connections in COPD,,2020
+"D Morgan, K Glass, J Morrow, CP Hersh, EK Silverman, J Quackenbush, ...",,
+"B107. THE LUNG IS ONLY AS OLD AS IT FEELS, A4378-A4378",,
+DNA methylation is predictive of mortality in current and former smokers,29,2020
+"JD Morrow, B Make, E Regan, ML Han, CP Hersh, R Tal-Singer, ...",,
+"American journal of respiratory and critical care medicine 201 (9), 1099-1109",,
+Clustering sparse data with feature correlation with application to discover subtypes in cancer,1,2020
+"J Qiang, W Ding, M Kuijjer, J Quackenbush, P Chen",,
+"IEEE Access 8, 67775-67789",,
+MicroRNA-mRNA networks define translatable molecular outcome phenotypes in osteosarcoma,12,2020
+"CE Lietz, C Garbutt, WT Barry, V Deshpande, YL Chen, ...",,
+"Scientific reports 10 (1), 4409",,
+"Nongenic cancer-risk SNPs affect oncogenes, tumour-suppressor genes, and immune function",42,2020
+"M Fagny, J Platig, ML Kuijjer, X Lin, J Quackenbush",,
+"British journal of cancer 122 (4), 569-577",,
+Expression Analysis,,2020
+"ML Kuijjer, JN Paulson, J Quackenbush",,
+"Bioinformatics, 279",,
+Data will Drive the Healthcare Revolution,,2020
+J Quackenbush,,
+"2020 Pan Pacific Microelectronics Symposium (Pan Pacific), 1-4",,
+The impact of stroma admixture on molecular subtypes and prognostic gene signatures in serous ovarian cancer,45,2020
+"M Schwede, L Waldron, SC Mok, W Wei, A Basunia, MA Merritt, ...",,
+"Cancer Epidemiology, Biomarkers & Prevention 29 (2), 509-519",,
+lionessR: single sample network inference in R,38,2019
+"ML Kuijjer, PH Hsieh, J Quackenbush, K Glass",,
+"BMC cancer 19, 1-6",,
+Identification of differentially expressed gene sets using the Generalized Berk–Jones statistic,10,2019
+"SM Gaynor, R Sun, X Lin, J Quackenbush",,
+"Bioinformatics 35 (22), 4568-4576",,
+Using a single daytime performance test to identify most individuals at high-risk for performance impairment during extended wake,15,2019
+"MA St. Hilaire, BS Kristal, SA Rahman, JP Sullivan, J Quackenbush, ...",,
+"Scientific Reports 9 (1), 16681",,
+Clinical and molecular analysis of pathologic fracture-associated osteosarcoma: microRNA profile is different and correlates with prognosis,27,2019
+"SAL Calderón, C Garbutt, J Kim, CE Lietz, YL Chen, K Bernstein, I Chebib, ...",,
+"Clinical Orthopaedics and Related Research® 477 (9), 2114-2126",,
+Proceedings of the fourth international molecular pathological epidemiology (MPE) meeting,7,2019
+"PT Campbell, CB Ambrosone, R Nishihara, HJWL Aerts, M Bondy, ...",,
+"Cancer Causes & Control 30, 799-811",,
+Spectral clustering in regression-based biological networks,2,2019
+"SM Gaynor, X Lin, J Quackenbush",,
+"bioRxiv, 651950",,
+Evidence of transcription at polyT short tandem repeats,4,2019
+"C Bessière, M Saraswat, M Grapotte, C Menichelli, JA Ramilowski, ...",,
+"bioRxiv, 634261",,
+Networks of DNA Methylation Loci in Lung Tissue and Peripheral Blood Highlight Cross-Tissue Epigenetic Signatures of COPD,1,2019
+"J Morrow, K Glass, P Sakornsakolpat, MH Cho, CP Hersh, R Tal-Singer, ...",,
+"C43. Copd and Population Health, A4865-A4865",,
+Estimating sample-specific regulatory networks,164,2019
+"ML Kuijjer, MG Tung, GC Yuan, J Quackenbush, K Glass",,
+"Iscience 14, 226-240",,
+Correction: Gene Regulatory Network Analysis Identifies Sex-Linked Differences in Colon Cancer Drug Metabolism,1,2019
+"CM Lopes-Ramos, ML Kuijjer, S Ogino, CS Fuchs, DL DeMeo, K Glass, ...",,
+"Cancer research 79 (8), 2084-2084",,
+Prediction of rapid kidney function decline using machine learning combining blood biomarkers and electronic health record data,9,2019
+"GN Nadkarni, F Fleming, JR McCullough, K Chauhan, DA Verghese, ...",,
+"BioRxiv, 587774",,
+lionessR: single-sample network reconstruction in R,1,2019
+"ML Kuijjer, J Quackenbush, K Glass",,
+"bioRxiv, 582098",,
+Connectivity of variants in eQTL networks dictates reproducibility and functionality,1,2019
+"SM Gaynor, M Fagny, X Lin, J Platig, J Quackenbush",,
+"bioRxiv, 515551",,
+Cascade size distributions and why they matter,3,2019
+"R Burkholz, J Quackenbush",,
+arXiv preprint arXiv:1909.05416,,
+Data from NSCLC-radiomics,208,2019
+"HJWL Aerts, L Wee, E Rios Velazquez, RTH Leijenaar, C Parmar, ...",,
+(No Title),,
+"High-throughput sequencing in respiratory, critical care, and sleep medicine research. An Official American Thoracic Society Workshop Report",11,2019
+"CP Hersh, IM Adcock, JC Celedon, MH Cho, DC Christiani, BE Himes, ...",,
+"Annals of the American Thoracic Society 16 (1), 1-16",,

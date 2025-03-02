@@ -1,4 +1,5 @@
 lab,university,city,initial_score,final_score,recommendation,apply,otherwise_reason,response,interview,accepted
+John Quackenbush,Harvard University,Cambridge,10,12,Strongly consider applying,yes,,,,
 Konrad Kording,University of Pennsylvania,Philadelphia,9,12,Consider applying after intuitive score,yes,,yes,no,no
 Richa Saxena,Harvard University,Cambridge,9,12,Consider applying after intuitive score,,,,,
 Nima Aghaeepour,Stanford University,Stanford,9,12,Consider applying after intuitive score,yes,N/A,yes,yes,

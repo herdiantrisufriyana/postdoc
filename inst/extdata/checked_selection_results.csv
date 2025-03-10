@@ -1,5 +1,5 @@
 lab,university,city,initial_score,final_score,recommendation,apply,otherwise_reason,response,interview,accepted
-John Quackenbush,Harvard University,Cambridge,10,12,Strongly consider applying,yes,,,,
+John Quackenbush,Harvard University,Cambridge,10,10,Strongly consider applying,yes,,no,,
 Konrad Kording,University of Pennsylvania,Philadelphia,9,12,Consider applying after intuitive score,yes,,yes,no,no
 Richa Saxena,Harvard University,Cambridge,9,12,Consider applying after intuitive score,,,,,
 Nima Aghaeepour,Stanford University,Stanford,9,12,Consider applying after intuitive score,yes,N/A,yes,yes,
@@ -20,7 +20,8 @@ Paul Avillach,Harvard University,Cambridge,9,10,Consider not applying after intu
 Peter Park,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
 Shamil Sunyaev,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
 Soumya Raychaudhuri,Harvard University,Cambridge,9,10,Consider not applying after intuitive score,,,,,
-Sarosh Rana,University of Chicago,Chicago,9,10,Consider not applying after intuitive score,yes,closer to clinical application,,,
+Sarosh Rana,University of Chicago,Chicago,9,10,Consider not applying after intuitive score,yes,closer to clinical application,no,,
 Tal Korem,Columbia University,New York City,7,9,Consider not applying after intuitive score,yes,pregnancy microbiome data access,yes,,
 Kathryn Gray,University of Washington,Seattle,6,9,May not be the best fit,yes,may be in Saxena lab,no,,
+Casey Greene,University of Colorado Boulder,Boulder,6,9,May not be the best fit,yes,preeclampsia database,,,
 Ryan Urbanowicz,University of California Los Angeles (UCLA),Los Angeles,6,6,May not be the best fit,,,,,

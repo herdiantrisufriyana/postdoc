@@ -1,0 +1,31 @@
+no,title,cited_by,year,aligned
+30,"MyGeneset. info: an interactive and programmatic platform for community-curated and user-created collections of genes. R Avila, V Rubinetti, X Zhou, D Hu, Z Qian, MA Cano, E Rodolpho, .... Nucleic Acids Research 51 (W1), W350-W356",2,2023,1
+64,"Correction for Rando et al.,“Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis of Viral Genomics and Structure”. HM Rando, AL MacLean, AJ Lee, R Lordan, S Ray, V Bansal, AN Skelly, .... Msystems 7 (1), e01447-21",,2022,1
+81,"Reproducibility standards for machine learning in the life sciences. BJ Heil, MM Hoffman, F Markowetz, SI Lee, CS Greene, SC Hicks. Nature Methods 18 (10), 1132-1135",192,2021,1
+79,"Pathogenesis, symptomatology, and transmission of SARS-CoV-2 through analysis of viral genomics and structure. HM Rando, AL MacLean, AJ Lee, R Lordan, S Ray, V Bansal, AN Skelly, .... MSystems 6 (5), 10.1128/msystems. 00095-21",38,2021,1
+50,"wenda_gpu: fast domain adaptation for genomic data. AA Hippen, J Crawford, JR Gardner, CS Greene. Bioinformatics 38 (22), 5129-5130",,2022,0
+93,"SARS-CoV-2 and COVID-19: An evolving review of diagnostics and therapeutics. HM Rando, CS Greene, MP Robson, SM Boca, N Wellhausen, R Lordan, .... Manubot",12,2021,1
+23,"A Pathway-Level Information ExtractoR (PLIER) framework to gain mechanistic insights into obesity in Down syndrome. S Nandi, Y Zhu, LA Gillenwater, M Subirana-Granés, H Zhang, N Janani, .... Biocomputing 2025: Proceedings of the Pacific Symposium, 412-425",2,2024,1
+48,"Hetnet connectivity search provides rapid insights into how biomedical entities are related. DS Himmelstein, M Zietz, V Rubinetti, K Kloster, BJ Heil, F Alquaddoomi, .... GigaScience 12, giad047",6,2023,1
+43,"Compendium-wide analysis of Pseudomonas aeruginosa core and accessory genes reveals transcriptional patterns across strains PAO1 and PA14. AJ Lee, G Doing, SL Neff, T Reiter, DA Hogan, CS Greene. MSystems 8 (1), e00342-22",10,2023,0
+101,"Compressing gene expression data using multiple latent space dimensionalities learns complementary biological representations. GP Way, M Zietz, V Rubinetti, DS Himmelstein, CS Greene. Genome biology 21, 1-27",77,2020,1
+95,"Expanding and remixing the metadata landscape. AA Hippen, CS Greene. Trends in cancer 7 (4), 276-278",9,2021,1
+122,"Graph biased feature selection of genes is better than random for many genes. J Crawford, CS Greene. Biorxiv, 2020.01. 17.910703",3,2020,1
+143,"TECHNOLOGIES TO WATCH IN 2019. S Teichmann, JS Kim, X Zhuang, H Zeng, J Boeke, V Ramakrishnan, .... Nature 565 (7740), 521-523",4,2019,0
+107,"Responsible, practical genomic data sharing that accelerates research. JB Byrd, AC Greene, DV Prasad, X Jiang, CS Greene. Nature Reviews Genetics 21 (10), 615-629",139,2020,1
+65,"Ten simple rules for large-scale data processing. A Fungtammasan, A Lee, J Taroni, K Wheeler, CS Chin, S Davis, .... PLoS Computational Biology 18 (2), e1009757",2,2022,0
+125,"Embracing study heterogeneity for finding genetic interactions in large‐scale research consortia. Y Liu, J Huang, RJ Urbanowicz, K Chen, E Manduchi, CS Greene, .... Genetic epidemiology 44 (1), 52-66",5,2020,0
+84,"Genetic demultiplexing of pooled single-cell RNA-sequencing samples in cancer facilitates effective experimental design. LM Weber, AA Hippen, PF Hickey, KC Berrett, J Gertz, JA Doherty, .... Gigascience 10 (9), giab062",32,2021,0
+40,"Biological research and self-driving labs in deep space supported by artificial intelligence. LM Sanders, RT Scott, JH Yang, AA Qutub, H Garcia Martin, DC Berrios, .... Nature Machine Intelligence 5 (3), 208-219",28,2023,0
+132,"Voices in methods development. P Anikeeva, E Boyden, C Brangwynne, II Cissé, O Fiehn, P Fromme, .... Nature methods 16 (10), 945-951",5,2019,0
+142,"Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality. GP Way, M Zietz, V Rubinetti, DS Himmelstein, CS Greene",9,2019,1
+135,"Discovering pathway and cell type signatures in transcriptomic compendia with machine learning. GP Way, CS Greene. Annual Review of Biomedical Data Science 2 (1), 1-17",15,2019,1
+118,"Integrative analysis identifies candidate tumor microenvironment and intracellular signaling pathways that define tumor heterogeneity in NF1. J Banerjee, RJ Allaway, JN Taroni, A Baker, X Zhang, CI Moon, .... Genes 11 (2), 226",19,2020,0
+24,"Optimizer’s dilemma: optimization strongly influences model selection in transcriptomic prediction. J Crawford, M Chikina, CS Greene. Bioinformatics Advances 4 (1), vbae004",3,2024,1
+80,"A field guide to cultivating computational biology. GP Way, CS Greene, P Carninci, BS Carvalho, M de Hoon, SD Finley, .... PLoS biology 19 (10), e3001419",19,2021,0
+141,"The pediatric cell atlas: defining the growth phase of human development at single-cell resolution. DM Taylor, BJ Aronow, K Tan, K Bernt, N Salomonis, CS Greene, .... Developmental cell 49 (1), 10-29",69,2019,0
+130,"Integrated phosphoproteomics and transcriptional classifiers reveal hidden RAS signaling dynamics in multiple myeloma. YHT Lin, GP Way, BG Barwick, MC Mariano, M Marcoulis, ID Ferguson, .... Blood advances 3 (21), 3214-3227",23,2019,0
+131,"Genomic profiling of childhood tumor patient-derived xenograft models to enable rational clinical trial design. JL Rokita, KS Rathi, MF Cardenas, KA Upton, J Jayaseelan, KL Cross, .... Cell reports 29 (6), 1675-1689. e9",180,2019,0
+67,"Computationally Efficient Assembly of Pseudomonas aeruginosa Gene Expression Compendia. D Georgia, AJ Lee, SL Neff, T Reiter, JD Holt, BA Stanton, CS Greene, .... MSystems 8 (1)",,2022,0
+10,"Academic Editing Engine (s) For Attribution And Revision Of Scholarly Authoring. M Pividori, CS Greene. US Patent App. 18/585,668",,2024,0
+145,"Conflict of Interest Declarations by Contributing Editors of the Special Issue on Early-Career Scientists, Sponsored by Illumina. SR Bordenstein, V Bucci, D Bulgarelli, N Chia, D Ercolini, TM Flynn, ...",,2019,0

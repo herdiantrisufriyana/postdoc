@@ -633,11 +633,126 @@ checked_selection_results |>
   column_spec(1:11, extra_css = "vertical-align:top;")
 ```
 
+# Exploration
 
+```{r}
+saxena_pe_pub <-
+  read_csv(
+    "inst/extdata/richa_saxena_google_scholar_preeclampsia.csv"
+    , col_names = FALSE
+    , show_col_types = FALSE
+  ) |>
+  t() |>
+  as.data.frame() |>
+  mutate(V6 = "Title") |>
+  rownames_to_column(var = "id")
 
+saxena_pe_pub <-
+  rbind(
+    select(saxena_pe_pub, id, colname = V6, value = V1)
+    , select(saxena_pe_pub, id, colname = V2, value = V3)
+    , select(saxena_pe_pub, id, colname = V4, value = V5)
+  ) |>
+  mutate_at(c("id", "colname"), \(x) factor(x, unique(x))) |>
+  spread(colname, value) |>
+  rename_all(\(x) str_to_lower(str_replace_all(x, "\\s+", "_"))) |>
+  mutate(
+    publication_date =
+      case_when(
+        str_count(publication_date, "/") == 0
+        ~ paste0(publication_date, "/12/01")
+        , str_count(publication_date, "/") == 1
+          ~ paste0(publication_date, "/01")
+        , str_count(publication_date, "/") == 2 ~ publication_date
+      ) |>
+      ymd()
+  ) |>
+  separate_rows(authors, sep = ", ") |>
+  group_by(id) |>
+  mutate(order = seq(n())) |>
+  ungroup() |>
+  mutate(authors = str_remove_all(str_to_lower(authors), "[:punct:]+"))
 
+saxena_pe_pub |>
+  select(old_name = authors) |>
+  unique() |>
+  arrange(old_name) |>
+  mutate(new_name = NA) |>
+  write_csv("inst/extdata/saxena_pe_pub_old_name.csv")
 
+saxena_pe_pub_new_name <-
+  read_csv("inst/extdata/saxena_pe_pub_new_name.csv", show_col_types = FALSE) |>
+  mutate(new_name = ifelse(is.na(new_name), old_name, new_name))
 
+saxena_pe_pub <-
+  saxena_pe_pub |>
+  rename(old_name = authors) |>
+  left_join(saxena_pe_pub_new_name, by = join_by(old_name)) |>
+  mutate(old_name = ifelse(is.na(new_name), old_name, new_name)) |>
+  select(-new_name) |>
+  rename(authors = old_name)
+```
+
+```{r}
+saxena_pe_pub |>
+  rbind(
+    saxena_pe_pub |>
+      group_by(id) |>
+      filter(order == max(order)) |>
+      ungroup() |>
+      mutate(order = "last")
+  ) |>
+  group_by(authors, order) |>
+  summarize(n = n(), .groups = "drop") |>
+  group_by(authors) |>
+  mutate(author_pub = n()) |>
+  ungroup() |>
+  right_join(
+    expand_grid(
+      authors = unique(saxena_pe_pub$authors)
+      , order = c(seq(max(saxena_pe_pub$order)), "last")
+    )
+    , by = join_by(authors, order)
+    , relationship = "many-to-many"
+  ) |>
+  mutate_at(
+    "order", \(x) factor(x, c(seq(max(saxena_pe_pub$order)), "last"))
+  ) |>
+  filter(order %in% factor(c("1", "2", "last"), levels(order))) |>
+  arrange(desc(author_pub), order) |>
+  mutate_at("authors", \(x) factor(x, rev(unique(x)))) |>
+  filter(
+    authors %in% levels(authors)[
+      seq(
+        min(which(
+          levels(authors)
+          %in% c("richa saxena", "kathryn j gray", "vesela p kovacheva")
+        ))
+        , length(levels(authors))
+      )
+    ]
+  ) |>
+  ggplot(aes(order, authors, fill = n)) +
+  geom_tile(color = "white") +
+  geom_text(aes(label = ifelse(is.na(n), "", n)), color = "white") +
+  scale_fill_gradient(low = "black", high = "red", na.value = "black")
+```
+
+```{r}
+saxena_pe_pub |>
+  filter(authors == "kathryn j gray") |>
+  kable(formats = kable_format) |>
+  kable_classic() |>
+  column_spec(1:5, extra_css = "vertical-align: top; ")
+```
+
+```{r}
+saxena_pe_pub |>
+  filter(authors == "vesela p kovacheva") |>
+  kable(formats = kable_format) |>
+  kable_classic() |>
+  column_spec(1:5, extra_css = "vertical-align: top; ")
+```
 
 
 
